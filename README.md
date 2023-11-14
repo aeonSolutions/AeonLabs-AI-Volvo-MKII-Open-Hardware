@@ -20,7 +20,46 @@
 
 # Volvo MKII Open Hardware
 
+What's planned for 2024.... <br>
+The electrical system and electronics for all Volvo's with the common chassis MKII, period 1998 to 2005, using the existing wiring on those cars (backward compatible) and replacing all electronics with open hardware I will design and prototype. To achieve this task I will be using donor car electronics and electrical wiring I already have. This will serve as a ground base to commercialize automotive solutions using an open business logic (open hardware and open software) for other car brands and models. Including LPG systems.
 
+**The problem** <br>
+Nowadays, repairing hardware electronics is impossible or almost impossible. Current practice forces a car owner to replace instead of repair. This has a really high cost and pushes owners to seek other less trustworthy solutions using used components from other vehicles. Since this type of components is nowadays heavily protected, maintenance and repair outside the official car manufacturer authorized dealer poses additional risks every time a piece of hardware electronics or firmware requires reverse engineering and modification just to enable it and make it work in another vehicle.
+
+**The Ideia** <br>
+Design and prototype OEM hardware electronics capable to the same operation and functionality, however instead of using closed and protected logic, it uses open hardware and open firmware hardware electronics as a direct replacement into existing* wiring in a vehicle, in particular older cars. This will facilitate repeatability and maintenance on any "repair shop" outside authorized dealers. And requires no reverse engineering and no modification to make it work in a vehicle.<br>
+
+Since this is an open hardware project, the main selection of choice for the operating system will be Android Auto for the main LCD screen , in the center console. Nowadays there are a plenitude of "open auto" solutions using a raspberry pi. I'll be designing the hardware electronics made to fit an SoC module, and i'll be starting with NVidia's Jetson Nano. In the following YouTube video there's a good example of a traditional media unit https://www.youtube.com/watch?v=RgbHXTHUnQw
+
+<br>
+
+**What hardware electronics will be conceptualized , prototyped and tested** <br>
+**1st Milestone** <br>
+The first milestrone has the main objective to do a direct replacement of all proprietary hardware electronics and replace them by open hardware solutions i'll be prototyping, namely: 
+- The ECU, in all similar to the one sold by the Austrians [HalTech](https://www.haltech.com) and the well known Speedduino.
+- The ETM throtle control
+- The instrument cluster on the dashboard
+- The Air Quality Control module
+- The Car Media Audio
+- The Door locking for each door plus the trunk
+- The control electronics for the front headlights , i'll b adding a "cargo load" sensor to automaticaly adjust the headlight beam angle
+- The control electronics for the back headlights
+
+**2nd Milestone** <br>
+In second milestone i'll be replacing the factory Air Quality control unit and also the Car Audio in the center console by a custom made LCD screen, in particular:
+- Add an LCD screen to the center console running Android Auto with software customizations
+
+**3rd Milestone** <br>
+In the third milestone I'll be replacing the factory instrument cluster dashboard unit and replace it with a custom made LCD screen for some cool 3D graphics rending , in particular:
+- add an LCD screen to the instrument cluster running some cool 3D graphics rendering
+- make it compatible for autonomous driving modules
+
+**4th Milestone** <br>
+In the fourth milestone I'll be adding Autonoous driving capabilities ...
+- Obstacle detection and automatic breaking
+- Direct compatible with [Comma.ai](http://www.comma.ai) autonomous driving solution (open hw & sw)
+ 
+<br>
 <br>
 
 **Hire me on Fiverr**
