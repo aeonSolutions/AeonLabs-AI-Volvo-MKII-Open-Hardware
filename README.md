@@ -57,18 +57,18 @@ In the third milestone I'll be replacing the factory instrument cluster dashboar
 **4th Milestone** <br>
 In the fourth milestone I'll be adding Autonoous driving capabilities ...
 - Obstacle detection and automatic breaking
-- Direct compatible with [Comma.ai](http://www.comma.ai) autonomous driving solution (open hw & sw)
+
 <p align="center">
-   <img src=" https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/blob/main/media/Comma.ai-3X-front-shop-1680x1260.jpg" height="300">
+   <img src="https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/blob/main/media/VOLVO%20XC60%20XC90%20FRONT%20COLLISION%20WARNING%20CAMERA%2032209885.jpg" height="200">
+</p>
+
+- Direct compatible with [Comma.ai](http://www.comma.ai) autonomous driving solution (open hw & sw)
+
+<p align="center">
+   <img src="https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/blob/main/media/Comma.ai-3X-front-shop-1680x1260.jpg" height="200">
 </p>
 
 <br>
-<br>
-
-**Hire me on Fiverr**
-
-If you like my work here and are looking to design and deploy your own smart device you can [hire me on Fiverr](https://www.fiverr.com/s/GjmPxe). The price starts at $25. 
-
 <br>
 
 ## Compatibility
