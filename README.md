@@ -58,7 +58,10 @@ In the third milestone I'll be replacing the factory instrument cluster dashboar
 In the fourth milestone I'll be adding Autonoous driving capabilities ...
 - Obstacle detection and automatic breaking
 - Direct compatible with [Comma.ai](http://www.comma.ai) autonomous driving solution (open hw & sw)
- 
+<p align="center">
+   <img src=" https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/blob/main/media/Comma.ai-3X-front-shop-1680x1260.jpg" height="300">
+</p>
+
 <br>
 <br>
 
