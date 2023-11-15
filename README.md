@@ -42,14 +42,17 @@ The main objective of this project is to study the advantages of using open solu
 
 **1st Milestone** <br>
 The first milestrone has the main objective to do a direct replacement of all proprietary hardware electronics and replace them by open hardware solutions i'll be prototyping, namely: 
-- The ECU, in all similar to the one sold by the Austrians [HalTech](https://www.haltech.com) and the well known [Speeduino](https://speeduino.com/home/).
-- The ETM throtle control
-- The instrument cluster on the dashboard
-- The Climate Control module
-- The Car Media Audio
-- The Door locking for each door plus the trunk
-- The control electronics for the front headlights , I'll b adding a "cargo load" sensor to automaticaly adjust the headlight beam angle
-- The control electronics for the back lights
+- The [ECU](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/ECU), in all similar to the one sold by the Austrians [HalTech](https://www.haltech.com) and the well known [Speeduino](https://speeduino.com/home/).
+- The [ETM](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/ETM) throttle control
+- The [Airbags control module](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Airbags-control-module)
+- The [Electronic Stability Control](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Electronic-Stability-Control)
+- The [Instrument cluster](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Instruments-Cluster) on the dashboard
+- The [Climate Control module](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Climate-Control-Module)
+- The [Car Media Audio](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Car-Media-Audio)
+- The [Rear view mirror](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Rear-View-Mirror)
+- The [Door locking](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Door-Locking) for each door plus the trunk
+- The [Control electronics for the front headlights](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Front-headlights) , I'll b adding a "cargo load" sensor to automatically adjust the headlight beam angle
+- The [Control electronics for the back lights](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Back-lights)
 
 **2nd Milestone** <br>
 In second milestone I'll be replacing the factory Air Quality control unit and also the Car Audio in the center console by a custom made LCD screen, in particular:
