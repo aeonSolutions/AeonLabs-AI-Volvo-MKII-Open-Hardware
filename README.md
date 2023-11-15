@@ -39,14 +39,14 @@ The first milestrone has the main objective to do a direct replacement of all pr
 - The ECU, in all similar to the one sold by the Austrians [HalTech](https://www.haltech.com) and the well known Speedduino.
 - The ETM throtle control
 - The instrument cluster on the dashboard
-- The Air Quality Control module
+- The Climate Control module
 - The Car Media Audio
 - The Door locking for each door plus the trunk
-- The control electronics for the front headlights , i'll b adding a "cargo load" sensor to automaticaly adjust the headlight beam angle
-- The control electronics for the back headlights
+- The control electronics for the front headlights , I'll b adding a "cargo load" sensor to automaticaly adjust the headlight beam angle
+- The control electronics for the back lights
 
 **2nd Milestone** <br>
-In second milestone i'll be replacing the factory Air Quality control unit and also the Car Audio in the center console by a custom made LCD screen, in particular:
+In second milestone I'll be replacing the factory Air Quality control unit and also the Car Audio in the center console by a custom made LCD screen, in particular:
 - Add an LCD screen to the center console running Android Auto with software customizations
 
 **3rd Milestone** <br>
