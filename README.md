@@ -70,6 +70,8 @@ In the fourth milestone I'll be adding Autonoous driving capabilities ...
 
 <br>
 <br>
+## WIKI
+Go to the [wiki page](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki) to learn more.
 
 ## Compatibility
 
