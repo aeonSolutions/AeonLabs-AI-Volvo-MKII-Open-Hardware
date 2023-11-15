@@ -18,6 +18,10 @@
 
 [PCB-Prototyping-Catalogue](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue)  >>  [Vehicle Automation](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/tree/main/Vehicle%20Automation)  >> Volvo MKII Open Hardware
 
+<div align="right">
+ <a href="https://github-com.translate.goog/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp">Change language</a>
+</div>
+
 # Volvo MKII Open Hardware
 
 What's planned for 2024.... <br>
