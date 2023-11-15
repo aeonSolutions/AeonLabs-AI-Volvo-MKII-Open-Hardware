@@ -36,7 +36,7 @@ Since this is an open hardware project, the main selection of choice for the ope
 **What hardware electronics will be conceptualized , prototyped and tested** <br>
 **1st Milestone** <br>
 The first milestrone has the main objective to do a direct replacement of all proprietary hardware electronics and replace them by open hardware solutions i'll be prototyping, namely: 
-- The ECU, in all similar to the one sold by the Austrians [HalTech](https://www.haltech.com) and the well known Speedduino.
+- The ECU, in all similar to the one sold by the Austrians [HalTech](https://www.haltech.com) and the well known [Speeduino](https://speeduino.com/home/).
 - The ETM throtle control
 - The instrument cluster on the dashboard
 - The Climate Control module
