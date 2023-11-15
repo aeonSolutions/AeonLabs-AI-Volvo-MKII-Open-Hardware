@@ -13,7 +13,7 @@
 [<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" data-canonical-src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="30" />](https://www.buymeacoffee.com/migueltomas)
 
 <p align="center">
-   <img src="https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/blob/main/media/volvo_mk2_banner.png" height="300">
+   <img src="https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/blob/main/media/volvo_mk2_banner.png" height="100%">
 </p>
 
 [PCB-Prototyping-Catalogue](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue)  >>  [Vehicle Automation](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/tree/main/Vehicle%20Automation)  >> Volvo MKII Open Hardware
@@ -57,22 +57,14 @@ In the third milestone I'll be replacing the factory instrument cluster dashboar
 **4th Milestone** <br>
 In the fourth milestone I'll be adding Autonoous driving capabilities ...
 - Obstacle detection and automatic breaking
+- Direct compatible with [Comma.ai](http://www.comma.ai) Autonomous driving solution (open hw & sw)
 
-<p align="center">
-   <img src="https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/blob/main/media/VOLVO%20XC60%20XC90%20FRONT%20COLLISION%20WARNING%20CAMERA%2032209885.jpg" height="200">
-</p>
-
-- Direct compatible with [Comma.ai](http://www.comma.ai) autonomous driving solution (open hw & sw)
-
-<p align="center">
-   <img src="https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/blob/main/media/Comma.ai-3X-front-shop-1680x1260.jpg" height="200">
-</p>
 
 <br>
 <br>
 
 ## WIKI
-Go to the [wiki page](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki) to learn more.
+To continue reading about this project, go to the [wiki page](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki). Thank you.
 
 <br>
 
