@@ -113,6 +113,33 @@ To continue reading about this project, go to the [wiki page](https://github.com
 <br>
 <br>
 
+## Join the Beta Program
+Join the beta program to test and debug to provide feedback, ideas, modifications, suggestions, improvements. And in return, write your own article blog or post on social media about it. See participation conditions on the [Wiki](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Beta-Participation-Agreement).  
+
+## Contributing
+
+Bug reports and pull requests are welcome on any of AeonLabs repositories. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/aeonSolutions/OpenScience-Dataverse-API-C-library/blob/main/CODE_OF_CONDUCT.md).
+
+- Contributing
+  - [Your Contributions Matter](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Your-Contributions-Matter)
+  - [Contributor Code of Conduct](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Contributor-Code-of-Conduct)
+
+<br>
+
+**[Beta Participation Agreement](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Beta-Participation-Agreement)**
+
+The Beta Participant Agreement is a legal document being executed between you and AeonLabs that outlines the conditions when participating in the Beta Program.
+
+## Coding standards
+
+Please make sure tests pass before committing, and add new tests for new additions.
+
+- Licensing 
+  - [AeonLabs Solutions for Open Hardware & Source Development](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/AeonLabs-Solutions-for-Open-Hardware-&-Source-Development)
+
+<br>
+<br>
+
 ## Author
 
 You can get in touch with me on my LinkedIn Profile:
