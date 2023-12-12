@@ -4371,8 +4371,8 @@
     (pin "5" (uuid 169a3f2c-537d-461f-a967-30351cbeaa03))
     (pin "6" (uuid 4eeb6573-9b3b-4baa-b5f8-bf01bbc58e18))
     (pin "7" (uuid 28445e91-96b9-47cb-98a3-00978eb716f7))
-    (pin "8" (uuid 1e49998c-5bba-4ecb-9ac7-b79259df1bdd))
-    (pin "8" (uuid 1e49998c-5bba-4ecb-9ac7-b79259df1bdd))
+    (pin "8" (uuid 1e49998c-5bba-4ecb-9ac7-b79259df1bde))
+    (pin "8" (uuid 1e49998c-5bba-4ecb-9ac7-b79259df1bde))
     (instances
       (project "OEM_ECU"
         (path "/ebe274a6-1c43-4fa2-9d2a-7756c5a7217c/00000000-0000-0000-0000-00005cfb00f8"

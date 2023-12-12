@@ -1,85 +1,148 @@
-20287117078237
-AeonLabs_Connectors
-121 pin ECU connector header
+35639563052679
+AeonLabs_Power
+AUR9718 ST1S09 SON95P300X300X100-7N
 
 
 0
-121
-121
-AeonLabs_Connectors
-Copper Track Breaker 2 points
-SMD rectangular pad as test Point, square 1.5mm side length
-test point SMD pad rectangle square
-0
-2
-2
-AeonLabs_Connectors
-Dip Switch 2 toggle
+7
+7
+AeonLabs_Power
+BP2525 AC DC
 
 
 0
-4
-4
-AeonLabs_Connectors
-Dip Switch 4pin 1mm
-
-
-0
-8
-8
-AeonLabs_Connectors
-ESP32 S3 MCU socket
-
-
-0
-56
-56
-AeonLabs_Connectors
-HRO_TYPE-C-31-M-12
-
-
-0
-16
-16
-AeonLabs_Connectors
-SOIC_clipProgSmall
-
-
-0
-8
-8
-AeonLabs_Connectors
-SW_Push_SPST_NO_Alps_SKRK AliExpress
-http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html
-SMD SMT button
-0
-2
-2
-AeonLabs_Connectors
-Terminal Block Bornier 8.25mm 4 pin TE_1-796658-2
-
-
-0
-4
-4
-AeonLabs_Connectors
-USB-A FEMALE OST_USB-A1HSW6
-
-
-0
-4
-4
-AeonLabs_Connectors
-USB-A MALE MOLEX_48037-0001
-
-
-0
-6
-6
-AeonLabs_Connectors
-USB_A_CONNFLY_DS1095-WNR0
-http://www.connfly.com/userfiles/image/UpLoadFile/File/2013/5/6/DS1095.pdf
-USB-A receptacle horizontal through-hole
-0
-6
 5
+5
+AeonLabs_Power
+Common Mode Inductor SQ1010 8x5mm
+Current-compensated Chokes, Schaffner, RN102-04, 14.0mmx14.0mm https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/
+chokes schaffner tht
+0
+4
+4
+AeonLabs_Power
+DIOB_MB10F-13
+
+
+0
+4
+4
+AeonLabs_Power
+D_1210_3225Metric_Pad1.42x2.65mm_HandSolder
+Diode SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode handsolder
+0
+2
+2
+AeonLabs_Power
+FUSE 1808 SMD0154004.DR
+
+
+0
+2
+2
+AeonLabs_Power
+Fuse_Bourns_MF-RG300
+PTC Resettable Fuse, Ihold = 3.0A, Itrip=5.1A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+AeonLabs_Power
+HLK-20Mxx
+
+
+0
+4
+4
+AeonLabs_Power
+HLK-40M12
+
+
+0
+4
+4
+AeonLabs_Power
+HUSB238 Power Delivery
+
+
+0
+11
+11
+AeonLabs_Power
+HX4002 SOT95 P280X125-6N
+SOT-23-6
+Integrated Circuit
+0
+6
+6
+AeonLabs_Power
+JZC 32F Realy 220V
+
+
+0
+4
+4
+AeonLabs_Power
+LED_1206_3210_RGB_Metric
+LED SMD 1206 (3216 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED castellated
+0
+4
+4
+AeonLabs_Power
+MP1584EN SOIC127P600X170-9N
+
+
+0
+9
+9
+AeonLabs_Power
+MT3608 STEP UP SOT95P280X145-6N
+
+
+0
+6
+6
+AeonLabs_Power
+NCE3010S SOP-8_3.76x4.96mm_P1.27mm
+SOP, 8 Pin (https://ww2.minicircuits.com/case_style/XX211.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+8
+8
+AeonLabs_Power
+SMIH relay 8 pin 5V DC 250VAC
+
+
+0
+8
+1
+AeonLabs_Power
+SQ2418 horizontal
+
+
+0
+4
+4
+AeonLabs_Power
+SQ2418 vertical
+
+
+0
+4
+4
+AeonLabs_Power
+Trimmer potentiometer 3x3mm _TC33X-2-503G
+<b>TC33X-2</b><br>
+
+0
+3
+3
+AeonLabs_Power
+pcb battery 3 pin
+2999-1
+Battery
+0
+3
+2
