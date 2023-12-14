@@ -6833,6 +6833,41 @@
     )
   )
 
+  (symbol (lib_id "Connector:Conn_01x06_Socket") (at 193.929 228.0158 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9e7bd164-89bb-4e68-8ed2-9f73d16728e7)
+    (property "Reference" "UART_CON2" (at 189.357 229.1588 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "UART_CONN" (at 191.9986 228.4476 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "AeonLabs_Connectors:SOIC_clipProgSmall" (at 193.929 228.0158 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 193.929 228.0158 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7d1ae8a4-93b6-47f1-b6f5-659e720474b4))
+    (pin "2" (uuid 7dc0e8d4-0d6f-4921-bf97-c1e819534f20))
+    (pin "3" (uuid 2c66997d-e47f-450e-857a-481ab123fb2b))
+    (pin "4" (uuid 8c1f3411-25f2-44e6-b8c8-3fdacd8c8df9))
+    (pin "5" (uuid 3d1d72ed-01f9-4b3d-b12a-b74fbc855856))
+    (pin "6" (uuid 4ca5d1b3-215f-49c7-8ca4-d8ad4907bd2b))
+    (instances
+      (project "OEM_ECU"
+        (path "/ebe274a6-1c43-4fa2-9d2a-7756c5a7217c"
+          (reference "UART_CON2") (unit 1)
+        )
+      )
+      (project "ESP32 C3 PCB TEMPLATE"
+        (path "/f1f5a39e-9869-4f00-8f70-65c53b83e907"
+          (reference "UART_CON1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 112.3442 106.934 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2533a19-646e-4e45-a3ec-444154ddedc1)
@@ -7489,41 +7524,6 @@
       (project "OEM_ECU"
         (path "/ebe274a6-1c43-4fa2-9d2a-7756c5a7217c"
           (reference "USB_PLUG_R2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x06_Socket") (at 193.929 228.0158 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c795073f-3c54-4477-9b3f-2ed00a559ca4)
-    (property "Reference" "ICSP1" (at 188.7728 226.7458 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "ICSP1" (at 189.4586 224.3582 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal" (at 193.929 228.0158 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 193.929 228.0158 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6d1fcc80-d8b7-4f81-8200-995e1ec4df55))
-    (pin "2" (uuid 7f0ce9df-4922-45a2-9392-7e2ec97edea2))
-    (pin "3" (uuid 15ee7286-ba4a-4e22-b496-7a4c5030199e))
-    (pin "4" (uuid 23271498-f1b0-4efe-8d64-631008a01450))
-    (pin "5" (uuid 77058d3b-3d59-4cb0-8a19-daf3a66ddb89))
-    (pin "6" (uuid 37b413c7-30e7-461f-a4a1-a698424d4430))
-    (instances
-      (project "LDAD_ATOM _PRO _LCD _ABS_Enclosure_52x48_16bit"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "ICSP1") (unit 1)
-        )
-      )
-      (project "OEM_ECU"
-        (path "/ebe274a6-1c43-4fa2-9d2a-7756c5a7217c"
-          (reference "ICSP1") (unit 1)
         )
       )
     )

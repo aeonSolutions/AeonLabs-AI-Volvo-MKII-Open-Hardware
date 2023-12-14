@@ -1,4 +1,4 @@
-22130662104833743
+22139174930520582
 AeonLabs Enclosure Boxes
 90 pin ECU pcb layout
 
@@ -315,12 +315,33 @@ zigbee
 0
 0
 AeonLabs_Automotive
+Infineon-KP234-Manufacturer_Recommended
+
+
+0
+8
+8
+AeonLabs_Automotive
 OEM_ECU_housing
 
 
 0
 0
 0
+AeonLabs_Automotive
+kp234 barometric sensor
+
+
+0
+8
+8
+AeonLabs_Automotive
+mc33810 SOIC32-P0.65-33N
+
+
+0
+33
+33
 AeonLabs_Automotive
 volvo_s60_2001_climate_control
 
@@ -616,6 +637,13 @@ FUSE 1808 SMD0154004.DR
 2
 2
 AeonLabs_Power
+Fuse_1812_4532Metric
+Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+AeonLabs_Power
 Fuse_Bourns_MF-RG300
 PTC Resettable Fuse, Ihold = 3.0A, Itrip=5.1A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
 ptc resettable fuse polyfuse THT
@@ -776,6 +804,13 @@ LED castellated
 0
 4
 4
+AeonLabs_Sensors
+LSM6DS3 Motion Sensor PQFN50P300X250X86-14N
+
+
+0
+14
+14
 AeonLabs_Sensors
 NXP MAP Sensor
 
