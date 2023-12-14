@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "OPEN ECU")
+    (date "2023-12-14")
+    (rev "12-2023")
+    (company "WWW.AEONLABS.SCIENCE")
+    (comment 1 "https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware")
+    (comment 2 "Creative Commons Share alike non commercial")
+  )
+
   (lib_symbols
     (symbol "AeonLabs_Sensors:BMP280" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -10.1796 7.6347 0)
