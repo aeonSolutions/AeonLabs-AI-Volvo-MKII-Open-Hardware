@@ -38,7 +38,7 @@ Since this is an open hardware project, the main selection of choice for the ope
 
 <br>
 
-## What hardware electronics will be conceptualized , prototyped and tested** 
+## What hardware electronics will be conceptualized , prototyped and tested
 The main objective of this project is to study the advantages of using open solutions an compare it with conventional hardware electronics solutions. In particular in regards to serviceability, maintenance and repairability and also important, in regards to personal ownership safety. While driving and while parked (thieves).
 
 **1st Milestone** <br>
