@@ -24,6 +24,7 @@
 </div>
 
 # Volvo MKII Open Hardware
+[where to buy](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Where-to-Buy) already assembled and ready to use.
 
 What's planned for 2024.... <br>
 The electrical system and electronics for all Volvo's with the common chassis MKII, period 1998 to 2005, using the existing wiring on those cars (backward compatible) and replacing all electronics with open hardware I will design and prototype. To achieve this task I will be using donor car electronics and electrical wiring I already have. This will serve as a ground base to commercialize automotive solutions using an open business logic (open hardware and open software) for other car brands and models. Including LPG systems.
@@ -111,6 +112,10 @@ To continue reading about this project, go to the [wiki page](https://github.com
 |-------------|------|
 
 <br>
+
+**Hire AeonLabs** <br>
+If you like my work here and are looking to design and deploy your own smart device find [here](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/How-to-Hire-AeonLabs) how to hire me. 
+
 <br>
 
 ## Join the Beta Program
