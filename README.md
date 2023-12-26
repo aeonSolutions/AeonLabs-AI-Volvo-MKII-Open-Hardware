@@ -45,6 +45,7 @@ The main objective of this project is to study the advantages of using open solu
 **1st Milestone** <br>
 The first milestrone has the main objective to do a direct replacement of all proprietary hardware electronics and replace them with open hardware solutions i'll be prototyping, namely: 
 - The [ECU](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/ECU), in all similar to the one sold by the Austrians [HalTech](https://www.haltech.com) and the well known [Speeduino](https://speeduino.com/home/).
+-  An [ECU Diagnostics]() , programming and Tunning Tablet device  
 - The [ETM](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/ETM) throttle control
 - The [Airbags control module](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Airbags-control-module)
 - The [Electronic Stability Control](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Electronic-Stability-Control)
