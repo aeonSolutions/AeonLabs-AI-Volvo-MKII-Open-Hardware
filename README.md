@@ -16,18 +16,18 @@
    <img src="https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/blob/main/media/volvo_mk2_banner.png" height="100%">
 </p>
 
-[PCB-Prototyping-Catalogue](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue)  >>  [Vehicle Automation](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/tree/main/Vehicle%20Automation)  >> Volvo MKII Open Hardware
+[PCB-Prototyping-Catalogue](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue)  >>  [Vehicle Automation](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/tree/main/Vehicle%20Automation)  >> Volvo P2 Open Hardware
 
 <div align="right">
  <a href="https://github-com.translate.goog/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp">Change language</a> <br>
  Last update: 12-12-2023
 </div>
 
-# Volvo MKII Open Hardware
+# Volvo P2 Open Hardware
 [where to buy](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Where-to-Buy) already assembled and ready to use.
 
 What's planned for 2024.... <br>
-The electrical system and electronics for all Volvo's with the common chassis MKII, period 1998 to 2005, using the existing wiring on those cars (backward compatible) and replacing all electronics with open hardware I will design and prototype. To achieve this task I will be using donor car electronics and electrical wiring I already have. This will serve as a ground base to commercialize automotive solutions using an open business logic (open hardware and open software) for other car brands and models. Including LPG systems.
+The electrical system and electronics for all Volvo's with the common chassis P2, period 1998 to 2005, using the existing wiring on those cars (backward compatible) and replacing all electronics with open hardware I will design and prototype. To achieve this task I will be using donor car electronics and electrical wiring I already have. This will serve as a ground base to commercialize automotive solutions using an open business logic (open hardware and open software) for other car brands and models. Including LPG systems.
 
 **The problem** <br>
 Nowadays, repairing hardware electronics is impossible or almost impossible. Current practice forces a car owner to replace instead of repair. This has a really high cost and pushes owners to seek other less trustworthy solutions using used components from other vehicles. Since this type of components is nowadays heavily protected, maintenance and repair outside the official car manufacturer authorized dealer poses additional risks every time a piece of hardware electronics or firmware requires reverse engineering and modification just to enable it and make it work in another vehicle.
