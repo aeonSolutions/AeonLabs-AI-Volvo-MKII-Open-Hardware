@@ -8373,6 +8373,23 @@
     )
   )
 
+  (sheet (at 83.9724 224.7646) (size 12.7 17.7546) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 326c886e-1e8d-45e8-9dd1-7a6d71d1dcef)
+    (property "Sheetname" "Serial UART" (at 83.9724 224.053 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "serial_uart.kicad_sch" (at 83.9724 243.1038 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "OEM_ECU"
+        (path "/ebe274a6-1c43-4fa2-9d2a-7756c5a7217c" (page "11"))
+      )
+    )
+  )
+
   (sheet (at 79.8576 198.5772) (size 12.7 16.8656) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

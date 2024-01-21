@@ -1631,6 +1631,10 @@
     [
       "a60cb332-7a48-40d3-88d3-82db880c5daa",
       "WideBand O2 sensor"
+    ],
+    [
+      "326c886e-1e8d-45e8-9dd1-7a6d71d1dcef",
+      "Serial UART"
     ]
   ],
   "text_variables": {}

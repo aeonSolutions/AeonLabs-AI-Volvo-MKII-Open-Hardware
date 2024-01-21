@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid cc2fb88e-df6e-4623-ac5a-d17111e83e37)
+  (uuid 0caba6ae-1ebf-4045-a00d-57fcffdfac9c)
 
   (paper "A4")
 
@@ -781,10 +781,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "SCK" (shape input) (at 171.5262 70.8406 0) (fields_autoplaced)
+  (global_label "SCLK" (shape input) (at 171.5262 70.8406 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 08a70c5a-14db-48e2-83a5-961e98fd499a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 177.6067 70.8406 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 178.6348 70.8406 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
