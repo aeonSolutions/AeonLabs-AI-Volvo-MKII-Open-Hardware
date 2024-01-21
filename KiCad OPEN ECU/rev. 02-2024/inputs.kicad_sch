@@ -4245,7 +4245,7 @@
   )
 
   (symbol (lib_id "AeonLabs_Automotive:KP234") (at 133.35 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 18d9adb6-d3d3-4b1f-8bb5-bfeafad6b784)
     (property "Reference" "U11" (at 121.3612 44.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4253,7 +4253,7 @@
     (property "Value" "KP234" (at 121.3612 46.99 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "AeonLabs_Automotive:kp234 barometric sensor" (at 121.3612 49.53 0)
+    (property "Footprint" "AeonLabs_Automotive:kp234 barometric sensor" (at 157.988 57.5056 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Datasheet" "" (at 133.35 31.75 0)
