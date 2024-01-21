@@ -8373,6 +8373,23 @@
     )
   )
 
+  (sheet (at 79.8576 198.5772) (size 12.7 16.8656) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a60cb332-7a48-40d3-88d3-82db880c5daa)
+    (property "Sheetname" "WideBand O2 sensor" (at 79.8576 197.8656 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "wideband_sensor.kicad_sch" (at 79.8576 216.0274 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "OEM_ECU"
+        (path "/ebe274a6-1c43-4fa2-9d2a-7756c5a7217c" (page "10"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )

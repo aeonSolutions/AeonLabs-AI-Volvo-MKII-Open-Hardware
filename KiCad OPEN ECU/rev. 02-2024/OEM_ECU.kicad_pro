@@ -1627,6 +1627,10 @@
     [
       "00000000-0000-0000-0000-00005cb19474",
       "Power Regulator"
+    ],
+    [
+      "a60cb332-7a48-40d3-88d3-82db880c5daa",
+      "WideBand O2 sensor"
     ]
   ],
   "text_variables": {}
