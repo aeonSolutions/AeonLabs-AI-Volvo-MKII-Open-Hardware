@@ -20,7 +20,7 @@
 
 <div align="right">
  <a href="https://github-com.translate.goog/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp">Change language</a> <br>
- Last update: 21-1-2024
+ Last update: 26-1-2024
 </div>
 
 # Volvo P2 Open Hardware
@@ -50,6 +50,14 @@ The first milestrone has the main objective to do a direct replacement of all pr
 - The [Airbags control module](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Airbags-control-module)
 - The [Electronic Stability Control](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Electronic-Stability-Control)
 - The [Instrument cluster](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Instruments-Cluster) on the dashboard
+  - LED retro illumination
+    - [Fuel Gauge](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Fuel-Gauge-LED-retro-illumination)
+    - [Temperature Gauge](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Temperature-Gauge-LED-retro-illumination)
+    - [Engine RPM Gauge](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Engine-RPM-Gauge-LED-retro-illumination)
+    - [Speed Gauge](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Speed-Gauge-LED-retro-illumination)
+  - LED retro illumination with LCD TFT Color Display
+    - [Engine RPM Gauge](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Engine-RPM-Gauge-LED-retro-illumination-with-LCD-TFT-Display)
+    - [Speed RPM Gauge](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Speed-Gauge-LED-retro-illumination-with-LCD-TFT-Display)
 - The [Climate Control module](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Climate-Control-Module)
 - The [Car Media Audio](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Car-Media-Audio)
 - The [Rear-view mirror](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Rear-View-Mirror)
