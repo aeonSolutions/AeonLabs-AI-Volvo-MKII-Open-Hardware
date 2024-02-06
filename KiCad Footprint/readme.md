@@ -7,4 +7,4 @@ Last change 06-02-2024
 
 <br>
 
-This is the KiCad footprints available for this open hardware electronics.  Each footprint was carefully measurened and It has the exact measurements and dimensions as the ones found on models from 2000 and 2004. If you like it and use it on your own hardware designs please support this project, [click here](https://github.com/sponsors/aeonSolutions) to learn how. Thank you 🙏. 
+This folder contains the KiCad footprints for this project's open hardware electronics and each is available with a [creative commons share alike non-commercial license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) .  Each footprint was carefully measurened and It has the exact measurements and dimensions as the ones found on models from 2000 and 2004. If you like it and use it on your own hardware designs please support this project, [click here](https://github.com/sponsors/aeonSolutions) to learn how. <br> Thank you 🙏. 
