@@ -1,1 +1,1 @@
-
+This is the KiCad footprints available for this open hardware electronics.  Each footprint was carefully measurened and It has the exact measurements and dimensions as the ones found on models from 2000 and 2004. If you like it and use it on your own hardware designs please support this project, [click here](https://github.com/sponsors/aeonSolutions) to learn how. Thank you 🙏. 
