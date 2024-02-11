@@ -2,7 +2,6 @@
  [![WhatsApp](https://img.shields.io/badge/join-whatsapp-green.svg?style=for-the-badge)](https://chat.whatsapp.com/FkNC7u83kuy2QRA5sqjBVg) 
  [![Say Thanks](https://img.shields.io/badge/Say%20Thanks-!-yellow.svg?style=for-the-badge)](https://saythanks.io/to/mtpsilva)
  [![Donate](https://img.shields.io/badge/donate-$-brown.svg?style=for-the-badge)](http://paypal.me/mtpsilva)
-[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" data-canonical-src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="30" />](https://www.buymeacoffee.com/migueltomas)
 <a href="https://github.com/sponsors/aeonSolutions">
    <img height="40" src="https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/blob/main/media/become_a_github_sponsor.png">
 </a>
@@ -12,7 +11,6 @@
 
 ![](https://views.whatilearened.today/views/github/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware.svg)
 **Unique Visits** <a href="https://trackgit.com"><img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/lpkxg8capf0t6hv9cqrl" alt="trackgit-views" /></a>
-<img height="20px" src="https://img.shields.io/github/last-commit/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware?style=for-the-badge">
 [![GitHub Forks](https://img.shields.io/github/forks/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware.svg?style=social&label=Fork&maxAge=2592000)](https://www.github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/fork)
 [![GitHub stars](https://img.shields.io/github/stars/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/stargazers/)
 [![GitHub watchers](https://img.shields.io/github/watchers/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/watchers/)
