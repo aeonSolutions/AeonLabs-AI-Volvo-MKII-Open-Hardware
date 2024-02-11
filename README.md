@@ -26,7 +26,7 @@
  Last update: 11-02-2024
 </div>
 
-# Volvo P2 Open Hardware
+# Open Hardware Electronics for the Volvo P2 platform
 [where to buy](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Where-to-Buy) already assembled and ready to use.
 
 **The problem** <br>
