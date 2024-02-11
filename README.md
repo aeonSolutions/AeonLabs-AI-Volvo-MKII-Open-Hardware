@@ -30,10 +30,15 @@
 [where to buy](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Where-to-Buy) already assembled and ready to use.
 
 **The problem** <br>
-Nowadays, repairing hardware electronics is impossible or almost impossible. Current practice forces a car owner to replace instead of repair. This has a really high cost and pushes owners to seek other less trustworthy solutions using used components from other vehicles. Since this type of components is nowadays heavily protected, maintenance and repair outside the official car manufacturer authorized dealer poses additional risks every time a piece of hardware electronics or firmware requires reverse engineering and modification just to enable it and make it work in another vehicle.
+&nbsp; Nowadays, repairing hardware electronics is impossible or almost impossible. Current practice forces a car owner to replace instead of repair. This has a really high cost and pushes owners to seek other less trustworthy solutions using used components from other vehicles. Since this type of components is nowadays heavily protected, maintenance and repair outside the official car manufacturer authorized dealer poses additional risks every time a piece of hardware electronics or firmware requires reverse engineering and modification just to enable it and make it work in another vehicle. Furthermore, is recurrently found good, fully functional cars, with the highest safety classification rating on their chassis, the [Euro NCAP 5 star rating](https://www.euroncap.com/en/about-euro-ncap/how-to-read-the-stars/) being sent to the scrap yard due to outdated electronics and components and a too low insurance valuation that limits repairability of the vehicle.    
 
-**The Ideia** <br>
-Design and prototype OEM hardware electronics for all Volvo's with the common chassis P2, period 1998 to 2009 (S80, S60, V70 XC70, XC90), using the existing wiring on those cars (backward compatible) to enable a direcct replacement of the existing factory hardware. Prototyped electronics are capable and have the same operation and functionality, however instead of using closed and protected logic, it uses open hardware and open firmware as a direct replacement into existing* wiring in a vehicle, in particular older cars. This will facilitate repeatability and maintenance on any "repair shop" outside authorized dealers. And requires no reverse engineering and no modification to make it work in a vehicle. To achieve this task I will be using donor car electronics and electrical wiring I already have. This will serve as a ground base to commercialize automotive solutions using an open business logic (open hardware and open software) for other car brands and models. Including LPG systems. <br>
+**Summary** <br>
+The overall objective for this open project aims extending the life of vehicles by means of updating them to current EU standards namely safety regulations and emission pollutants. As so vehicles undergo a process of refurbishment service and full-featured overhaul of technology updates from mechanical key components to the interior habitacle, comfort, and safety of a vehicle. This Auto RFTI™ (refurbishment, facelift, and technology improvements) goes a step further to just a vehicle facelift and will differentiate offering simple & easy hardware electronics and components for extending vehicle utilization life by means of technology upgrades. 
+
+**Proof-of-Conccept** <br>
+&nbsp; Design and prototype OEM hardware electronics capable to the same operation and functionality for all Volvo's with the [common chassis P2](https://en.wikipedia.org/wiki/Volvo_P2_platform), period 1998 to 2009 (S80, S60, V70 XC70, XC90), using the existing wiring on those cars (backward compatible). Instead of using closed and protected logic, it uses open hardware and open firmware hardware electronics as a direct replacement into existing* wiring in a vehicle, in particular older cars. This will facilitate repeatability and maintenance on any "repair shop" outside authorized dealers. And requires no reverse engineering and no modification to make it work in a vehicle.<br>
+
+&nbsp; To achieve this task I will be using the electronics and electrical wiring of a donor car I already have. This will serve as a ground base to commercialize automotive solutions using an open business logic (open hardware and open software) for other car brands and models. Including LPG systems.
 
 <div align="center">
 
@@ -41,7 +46,13 @@ Design and prototype OEM hardware electronics for all Volvo's with the common ch
 <sup> <a href="https://discordapp.com/channels/879495735912071269/937480820594208808/1203010918833721446">Discord Server of Speeduino 02-02-2024 </a> </sup>
 </div>
 
-Since this is an open hardware project, the main selection of choice for the operating system will be Android Auto for the main LCD screen , in the center console. Nowadays there are a plenitude of "open auto" solutions using a raspberry pi. I'll be designing the hardware electronics made to fit an SoC module, and i'll be starting with NVidia's Jetson Nano. In the following YouTube video there's a good example of a traditional media unit https://www.youtube.com/watch?v=RgbHXTHUnQw
+&nbsp; Since this is an open hardware project, the main selection of choice for the operating system will be Android Auto for the main LCD screen , in the center console. Nowadays there are a plenitude of "open auto" solutions using a raspberry pi. I'll be designing the hardware electronics made to fit an SoC module, and I'll be starting with NVidia's Jetson Nano. In the following YouTube video there's a good example of a traditional media unit https://www.youtube.com/watch?v=RgbHXTHUnQw <br>
+
+Read more about ...
+- [Open Hardware Design Considerations](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Open-Hardware-Design-Considerations)
+- [Firmware Programming](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Firmware-Programming)
+- [Milestones to Achieve for the Open Hardware Electronics](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Milestones-to-Achieve--for-the-Open-Hardware-Electronics)
+- [The 6 Levels of Vehicle Autonomy](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/The-6-Levels-of-Vehicle-Autonomy)
 
 <br>
 
