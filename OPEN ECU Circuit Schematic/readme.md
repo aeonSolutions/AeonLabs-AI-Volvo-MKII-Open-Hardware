@@ -7,7 +7,14 @@ Last change 06-02-2024
 
 <br>
 
-This folder contains the KiCad circuit schematics for this project's open hardware electronics and each schematic is available with a [creative commons share alike non-commercial license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) . If you like it and use it on your own hardware designs please support this project, [click here](https://github.com/sponsors/aeonSolutions) to learn how. <br> Thank you 🙏. 
+This folder contains the KiCad circuit schematics, in a PDF format, for this project's open hardware electronics and each schematic is available with a [creative commons share alike non-commercial license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) . 
+
+<p align="center">
+  <strong> <a href="https://aeonsolutions.github.io/sponsor/open_automotive/">Web Viewer of the circuit schematic</a> </strong> <br>
+ <sup>Click to view the latest revision of the circuit schematic</sup>
+</p>
+
+If you like it and use it on your own hardware designs please support this project, [click here](https://github.com/sponsors/aeonSolutions) to learn how. <br> Thank you 🙏. 
 
 ### Support all these open hardware projects and become a GitHub sponsor  
 Liked any of my PCB KiCad Designs? Help and Support my open work to all by becoming a GitHub sponsor.
