@@ -21,7 +21,7 @@
 
 <div align="right">
  <a href="https://github-com.translate.goog/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp">Change language</a> <br>
- Last update: 11-02-2024
+ Last update: 19-02-2024
 </div>
 
 # Open Hardware Electronics for the Volvo P2 platform
@@ -57,31 +57,7 @@ Read more about ...
 ## What hardware electronics will be conceptualized , prototyped and tested
 &nbsp; The main objective of this project is to study the advantages of using open solutions an compare it with conventional hardware electronics solutions. In particular in regards to serviceability, maintenance and repairability and also important, in regards to personal ownership safety. While driving and while parked (thieves). 
 
-## 1st milestone
-The first milestone to achieve for this open hardware electronics project is to design and prototype automotive solutions classified as [SAE Level 1](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/The-6-Levels-of-Vehicle-Autonomy). This is the lowest level of automation. The vehicle features a single automated system for driver assistance, such as steering or accelerating (cruise control). Adaptive cruise control, where the vehicle can be kept at a safe distance behind the next car, qualifies as Level 1 because the human driver monitors the other aspects of driving such as steering and braking.
-
-**1st sub-milestone** <br>
-&nbsp; The first sub-milestone has the main objective to do a direct replacement of all proprietary hardware electronics and replace them with open hardware solutions. I'll be focusing on making solutions simple and easy to install and repair. It will include real-time remote diagnostics and repair planning assistance with detailed analysis of critical fault codes, and suggest a nearby shop for a possible repair.    
-
-**2nd sub-milestone** <br>
-&nbsp; The Volvo S60 from 2001 and 2009 has the correct center console for a full LCD touch panel capable of running and managing the car in all similar to a Tesla EV. In the second sub-milestone I'll be replacing the factory Air Quality control unit and also the Car Audio in the center console by a custom made LCD screen, in particular:
-- Add an [LCD screen to the center console]() to match the dimensions of the console capable of running Android Auto with software customizations
-
-**3rd sub-milestone** <br>
-&nbsp; In the third sub-milestone I'll be replacing the factory instrument cluster dashboard unit and replace it with a custom made LCD screen for some cool 3D graphics rending , in particular:
-- add an [LCD screen to the instrument cluster]() running some cool 3D graphics rendering
-- make it compatible for autonomous driving modules
-
-## 2nd milestone
-&nbsp; In the 2nd milestone I'll be adding Autonomous driving capabilities ...
-- [Obstacle detection and automatic breaking](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Obstacle-detection-and-automatic-breaking#obstacle-detection-and-automatic-breaking)
-- [Autonomous Driving](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Autonomous-Driving-with-openpilot#autonomous-driving-with-openpilot)
-  - [OpenPilot](https://github.com/commaai/openpilot) by [Comma.ai](http://www.comma.ai)
-  - [FlowPilot](https://github.com/flowdriveai/flowpilot) by [flowdrive.ai](https://github.com/flowdriveai)
-
-<br>
-
-To continue reading about this project, go to the [wiki page](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki). Thank you.
+[continue reading ...](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki)
 
 <br>
 
