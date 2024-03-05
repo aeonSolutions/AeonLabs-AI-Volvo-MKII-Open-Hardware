@@ -2,12 +2,12 @@
 
 <div align="right">
  <a href="https://github-com.translate.goog/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp">Change language</a>  <br>
-Last change 16-02-2024
+Last change 05-03-2024
 </div>
 
 <br>
 
-This folder contains the KiCad PCB Layout, in a PDF format, for this project's open hardware electronics and each PCB layout is available with a [creative commons share alike non-commercial license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) . 
+This folder contains the KiCad Project files, for the hardware electronics of the OPEN ECU.  Each KiCad project is available with a [creative commons share alike non-commercial license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) . 
 
 <p align="center">
   <strong> <a href="https://aeonsolutions.github.io/sponsor/open_automotive/">Interactive web view of the PCB Layout</a> </strong> <br>
