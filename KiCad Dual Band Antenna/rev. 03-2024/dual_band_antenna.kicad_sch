@@ -1,5 +1,23 @@
-(kicad_sch (version 20240101) (generator "eeschema") (generator_version "8.99")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20240101)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "8c7d1932-c5ea-4c0b-8b90-512c61898fce")
+	(paper "A4")
+	(lib_symbols)
+	(text "There's no circuit schematics"
+		(exclude_from_sim no)
+		(at 144.272 96.266 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "7ebc9259-6ceb-4b45-a546-03916be32a7b")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
