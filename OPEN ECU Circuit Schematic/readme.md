@@ -10,7 +10,7 @@ Last change 16-02-2024
 This folder contains the KiCad circuit schematics, in a PDF format, for this project's open hardware electronics and each schematic is available with a [creative commons share alike non-commercial license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en). 
 
 <p align="center">
-  <strong> <a href="https://aeonsolutions.github.io/sponsor/open_automotive/">Interactive view of the circuit schematic</a> </strong> <br>
+  <strong> <a href="https://aeonsolutions.github.io/portfolio/hardware_electronics/automotive/">Interactive view of the circuit schematic</a> </strong> <br>
  <sup>Click to view the latest revision of the circuit schematic</sup>
 </p>
 
