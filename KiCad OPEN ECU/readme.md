@@ -10,7 +10,7 @@ Last change 05-03-2024
 This folder contains the KiCad Project files, for the hardware electronics of the OPEN ECU.  Each KiCad project is available with a [creative commons share alike non-commercial license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) . 
 
 <p align="center">
-  <strong> <a href="https://aeonsolutions.github.io/sponsor/open_automotive/">Interactive web view of the PCB Layout</a> </strong> <br>
+  <strong> <a href="https://aeonsolutions.github.io/portfolio/hardware_electronics/automotive/">Interactive web view of the PCB Layout</a> </strong> <br>
  <sup>Click to view the latest revision of the PCB Layout</sup>
 </p>
 
