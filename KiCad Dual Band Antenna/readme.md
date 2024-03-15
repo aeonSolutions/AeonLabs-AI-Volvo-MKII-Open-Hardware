@@ -10,14 +10,14 @@ Last change 15-03-2024
 This folder contains the KiCad Project files, for the hardware electronics of the dual-band antenna.  Each KiCad project is available with a [creative commons share alike non-commercial license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) . 
 
 <p align="center">
-  <strong> <a href="https://aeonsolutions.github.io/sponsor/open_automotive/">Interactive web view of the PCB Layout</a> </strong> <br>
+  <strong> <a href="https://aeonsolutions.github.io/portfolio/hardware_electronics/automotive/">Interactive web view of the PCB Layout</a> </strong> <br>
  <sup>Click to view the latest revision of the PCB Layout</sup>
 </p>
 
 If you like it and use it on your own hardware designs please support this project, [click here](https://github.com/sponsors/aeonSolutions) to learn how. <br> Thank you 🙏. 
 
 ### Support all these open hardware projects and become a GitHub sponsor  
-Liked any of my PCB KiCad Designs? Help and Support my open work to all by becoming a GitHub sponsor.
+Did you like any of my PCB KiCad Designs? Help and Support my open work to all by becoming a GitHub sponsor.
 
 <p align="center">
     <a href="https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/blob/main/become_a_sponsor/aeonlabs-github-sponsorship-agreement.docx">
