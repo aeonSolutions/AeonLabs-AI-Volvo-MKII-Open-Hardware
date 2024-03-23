@@ -1,4 +1,4 @@
-(footprint "Volvo P2 -04 CEM & REM 88-pin screw connector"
+(footprint "Volvo P2_1998-2004 REM_pcb_layout"
 	(version 20240225)
 	(generator "pcbnew")
 	(generator_version "8.99")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Volvo P2 -04 CEM & REM 88-pin screw connector"
+	(property "Value" "Volvo P2_1998-2004 REM_pcb_layout"
 		(at 0.2075 -110.195 0)
 		(unlocked yes)
 		(layer "F.Fab")
