@@ -27,15 +27,15 @@
 [where to buy](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Where-to-Buy) already assembled and ready to use.
 
 **The problem** <br>
-&nbsp; Nowadays, repairing hardware electronics is impossible or almost impossible. Current practice forces a car owner to replace instead of repair. This has a really high cost and pushes owners to seek other less trustworthy solutions using used components from other vehicles. Since this type of components is nowadays heavily protected, maintenance and repair outside the official car manufacturer authorized dealer poses additional risks every time a piece of hardware electronics or firmware requires reverse engineering and modification just to enable it and make it work in another vehicle. Furthermore, is recurrently found good, fully functional cars, with the highest safety classification rating on their chassis, the [Euro NCAP 5 star rating](https://www.euroncap.com/en/about-euro-ncap/how-to-read-the-stars/) being sent to the scrap yard due to outdated electronics and components and a too low insurance valuation that limits repairability of the vehicle.    
+&nbsp; Nowadays, repairing hardware electronics is impossible or almost impossible. Current practice forces a car owner to replace instead of repair. This has a really high cost and pushes owners to seek other less trustworthy solutions using used components from other vehicles. Since this type of component is nowadays heavily protected, maintenance and repair outside the official car manufacturer authorized dealer pose additional risks every time a piece of hardware electronics or firmware requires reverse engineering and modification just to enable it and make it work in another vehicle. Furthermore, recurrently found good, fully functional cars, with the highest safety classification rating on their chassis, the [Euro NCAP 5 star rating](https://www.euroncap.com/en/about-euro-ncap/how-to-read-the-stars/) being sent to the scrap yard due to outdated electronics and components and a too low insurance valuation that limits repairability of the vehicle.    
 
 **Summary** <br>
-The overall objective for this open project aims extending the life of vehicles by means of updating them to current EU standards namely safety regulations and emission pollutants. As so vehicles undergo a process of refurbishment service and full-featured overhaul of technology updates from mechanical key components to the interior habitacle, comfort, and safety of a vehicle. Branded **Auto RFTI™** (refurbishment, facelift, and technology improvements) goes a step further to just a vehicle facelift and will differentiate by offering simple & easy hardware electronics and components for extending vehicle utilization life by means of technology upgrades to improve safety while at the same time reduce vehicle emissions. 
+The overall objective of this open project is to extend the life of vehicles by means of updating them to current EU standards namely safety regulations and emission pollutants. As so vehicles undergo a process of refurbishment service and full-featured overhaul of technology updates from mechanical key components to the interior habitacle, comfort, and safety of a vehicle. Branded **Auto RFTI™** (refurbishment, facelift, and technology improvements) goes a step further than just a vehicle facelift and will differentiate by offering simple & easy hardware electronics and components for extending vehicle utilization life by means of technology upgrades to improve safety while at the same time reduce vehicle emissions. 
 - [The 6 Levels of Vehicle Autonomy](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/The-6-Levels-of-Vehicle-Autonomy)
 - [Milestones to Achieve for the Open Hardware Electronics](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Milestones-to-Achieve--for-the-Open-Hardware-Electronics)
 
-**Proof-of-Conccept** <br>
-&nbsp; Design and prototype OEM hardware electronics capable to the same operation and functionality for all Volvo's with the [common chassis P2](https://en.wikipedia.org/wiki/Volvo_P2_platform), period 1998 to 2009 (S80, S60, V70 XC70, XC90), using the existing wiring on those cars (backward compatible). Instead of using closed and protected logic, it uses open hardware and open firmware hardware electronics as a direct replacement into existing* wiring in a vehicle, in particular older cars. This will facilitate repeatability and maintenance on any "repair shop" outside authorized dealers. And requires no reverse engineering and no modification to make it work in a vehicle.<br>
+**Proof-of-Concept** <br>
+&nbsp; Design and prototype OEM hardware electronics capable of the same operation and functionality for all Volvo's with the [common chassis P2](https://en.wikipedia.org/wiki/Volvo_P2_platform), period 1998 to 2009 (S80, S60, V70 XC70, XC90), using the existing wiring on those cars (backward compatible). Instead of using closed and protected logic, it uses open hardware and open firmware hardware electronics as a direct replacement for existing* wiring in a vehicle, in particular older cars. This will facilitate repeatability and maintenance on any "repair shop" outside authorized dealers and requires no reverse engineering and no modification to make it work in a vehicle.<br>
 
 &nbsp; To achieve this task I will be using the electronics and electrical wiring of a donor car I already have. This will serve as a ground base to commercialize automotive solutions using an open business logic (open hardware and open software) for other car brands and models. Including LPG systems.
 
@@ -45,7 +45,7 @@ The overall objective for this open project aims extending the life of vehicles 
 <sup> <a href="https://discordapp.com/channels/879495735912071269/937480820594208808/1203010918833721446">Discord Server of Speeduino 02-02-2024 </a> </sup>
 </div>
 
-&nbsp; Since this is an open hardware project, the main selection of choice for the operating system will be Android Auto for the main LCD screen , in the center console. Nowadays there are a plenitude of "open auto" solutions using a raspberry pi. I'll be designing the hardware electronics made to fit an SoC module, and I'll be starting with NVidia's Jetson Nano. In the following YouTube video there's a good example of a traditional media unit https://www.youtube.com/watch?v=RgbHXTHUnQw <br>
+&nbsp; Since this is an open hardware project, the main selection of choice for the operating system will be Android Auto for the main LCD screen, in the center console. Nowadays there is a plenitude of "open auto" solutions using Raspberry Pi. I'll be designing the hardware electronics made to fit an SoC module, and I'll be starting with NVidia's Jetson Nano. In the following YouTube video, there's a good example of a traditional media unit https://www.youtube.com/watch?v=RgbHXTHUnQw <br>
 
 Read more about ...
 - [Open Hardware Design Considerations](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Open-Hardware-Design-Considerations)
@@ -53,8 +53,8 @@ Read more about ...
 
 <br>
 
-## What hardware electronics will be conceptualized , prototyped and tested
-&nbsp; The main objective of this project is to study the advantages of using open solutions an compare it with conventional hardware electronics solutions. In particular in regards to serviceability, maintenance and repairability and also important, in regards to personal ownership safety. While driving and while parked (thieves). 
+## What hardware electronics will be conceptualized, prototyped, and tested
+&nbsp; The main objective of this project is to study the advantages of using open solutions and compare them with conventional hardware electronics solutions. In particular in regards to serviceability, maintenance, and repairability and also importantly, in regards to personal ownership safety. While driving and while parked (thieves). 
 
 [continue reading ...](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki)
 
@@ -93,7 +93,7 @@ If you like my work here and are looking to design and deploy your own smart dev
 <br>
 
 ## Join the Beta Program
-Join the beta program to test and debug to provide feedback, ideas, modifications, suggestions, improvements. And in return, write your own article blog or post on social media about it. See participation conditions on the [Wiki](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Beta-Participation-Agreement).  
+Join the beta program to test and debug to provide feedback, ideas, modifications, suggestions, and improvements. And in return, write your own article blog, or post on social media about it. See participation conditions on the [Wiki](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Beta-Participation-Agreement).  
 
 ## Contributing
 
@@ -132,7 +132,7 @@ You can also follow my GitHub Profile to stay updated about my latest projects: 
 <br>
 
 ### Be supportive of my dedication and work towards technology education and buy me a cup of coffee
-The PCB Desgin Files i provide here for anyone to use are free. If you like this Smart Device or use it, please consider buying me a cup of coffee, a slice of pizza or a book to help me study, eat and think new PCB design files.
+The PCB Design Files I provide here for anyone to use are free. If you like this Smart Device or use it, please consider buying me a cup of coffee, a slice of pizza, or a book to help me study, eat, and think new PCB design files.
 
 <p align="center">
     <a href="https://www.buymeacoffee.com/migueltomas">
@@ -142,7 +142,7 @@ The PCB Desgin Files i provide here for anyone to use are free. If you like this
 
 
 ### Make a donation on Paypal
-Make a donation on paypal and get a TAX refund*.
+Make a donation on PayPal and get a TAX refund*.
 
 <p align="center">
     <a href="http://paypal.me/mtpsilva">
@@ -150,8 +150,8 @@ Make a donation on paypal and get a TAX refund*.
     </a>
 </p>
 
-### Support all these open hardware projects and become a Github sponsor  
-Liked any of my PCB KiCad Designs? Help and Support my open work to all by becomming a Github sponsor.
+### Support all these open hardware projects and become a GitHub sponsor  
+Did you like any of my PCB KiCad Designs? Help and Support my open work to all by becoming a Github sponsor.
 
 <p align="center">
     <a href="https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/blob/main/become_a_sponsor/aeonlabs-github-sponsorship-agreement.docx">
