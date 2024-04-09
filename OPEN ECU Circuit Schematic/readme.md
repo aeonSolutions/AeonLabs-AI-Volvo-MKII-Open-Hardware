@@ -14,7 +14,8 @@ This folder contains the KiCad circuit schematics, in a PDF format, for this pro
  <sup>Click to view the latest revision of the circuit schematic</sup>
 </p>
 
-If you like it and use it on your own hardware designs please support this project, [click here](https://github.com/sponsors/aeonSolutions) to learn how. <br> Thank you 🙏. 
+However, they're not fully complete. If you like it and are looking to use it on your projects, you can download the complete circuit schematics files for a particular hardware electronics/module, ready to open in KiCad or Altium Design,  with a one-time donation, [click here](https://github.com/sponsors/aeonSolutions) to learn how,  and don't forget to include in a message the name of the module/ hardware elecronics you need. <br> Thank you 🙏.
+
 
 ### Support all these open hardware projects and become a GitHub sponsor  
 Did you like any of my PCB KiCad Designs? Help and Support my open work to all by becoming a GitHub sponsor.
