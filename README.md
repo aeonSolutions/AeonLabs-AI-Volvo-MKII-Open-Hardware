@@ -34,6 +34,15 @@ The overall objective of this open project is to extend the life of vehicles by 
 - [The 6 Levels of Vehicle Autonomy](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/The-6-Levels-of-Vehicle-Autonomy)
 - [Milestones to Achieve for the Open Hardware Electronics](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Milestones-to-Achieve--for-the-Open-Hardware-Electronics)
 
+<br>
+
+In one sentence: 
+<div align="center">
+
+***"I'm solving all the electronics issues that make a P2 Volvo have a bad reputation"*** <br>
+
+</div>
+
 **Proof-of-Concept** <br>
 &nbsp; Design and prototype OEM hardware electronics capable of the same operation and functionality for all Volvo's with the [common chassis P2](https://en.wikipedia.org/wiki/Volvo_P2_platform), period 1998 to 2009 (S80, S60, V70 XC70, XC90), using the existing wiring on those cars (backward compatible). Instead of using closed and protected logic, it uses open hardware and open firmware hardware electronics as a direct replacement for existing* wiring in a vehicle, in particular older cars. This will facilitate repeatability and maintenance on any "repair shop" outside authorized dealers and requires no reverse engineering and no modification to make it work in a vehicle.<br>
 
