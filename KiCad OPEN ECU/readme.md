@@ -2,7 +2,7 @@
 
 <div align="right">
  <a href="https://github-com.translate.goog/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp">Change language</a>  <br>
-Last change 05-03-2024
+Last change 09-04-2024
 </div>
 
 <br>
@@ -14,7 +14,8 @@ This folder contains the KiCad Project files, for the hardware electronics of th
  <sup>Click to view the latest revision of the PCB Layout</sup>
 </p>
 
-If you like it and use it on your own hardware designs please support this project, [click here](https://github.com/sponsors/aeonSolutions) to learn how. <br> Thank you 🙏. 
+However, they're not fully complete. If you like it and are looking to use it on your projects, you can download the complete Kicad project files with a one-time donation, [click here](https://github.com/sponsors/aeonSolutions) to learn how,  and don't forget to include it in a message which Kicad project files you need. <br> Thank you 🙏.
+
 
 ### Support all these open hardware projects and become a GitHub sponsor  
 Did you like any of my PCB KiCad Designs? Help and Support my open work to all by becoming a GitHub sponsor.
