@@ -14,7 +14,7 @@ This folder contains the KiCad Project files, for the hardware electronics of th
  <sup>Click to view the latest revision of the PCB Layout</sup>
 </p>
 
-However, they're not fully complete. If you like it and are looking to use it on your projects, you can download the complete Kicad project files with a one-time donation, [click here](https://github.com/sponsors/aeonSolutions) to learn how,  and don't forget to include it in a message which Kicad project files you need. <br> Thank you 🙏.
+However, they're not fully complete. If you like it and are looking to use it on your projects, you can download the complete Kicad project files with a one-time donation, [click here](https://github.com/sponsors/aeonSolutions) to learn how,  and don't forget to include it in a message the name of the module/hardware electronics you need. <br> Thank you 🙏.
 
 
 ### Support all these open hardware projects and become a GitHub sponsor  
