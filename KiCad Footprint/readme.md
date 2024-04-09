@@ -7,10 +7,10 @@ Last change 06-02-2024
 
 <br>
 
-This folder contains the KiCad footprints for this project's open hardware electronics and each is available with a [creative commons share alike non-commercial license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) .  Each footprint was carefully measurened and It has the exact measurements and dimensions as the ones found on models from 2000 and 2004. If you like it and use it on your own hardware designs please support this project, [click here](https://github.com/sponsors/aeonSolutions) to learn how. <br> Thank you 🙏. 
+This folder contains the KiCad footprints for this project's open hardware electronics, available with a [creative commons share alike non-commercial license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) .  Each footprint was carefully measured and It has the exact factory measurements and dimensions as the ones found on Volvo P2 models. However, they're not fully complete. If you like it and are looking to use it on your projects, you can download a complete Kicad Footprint by this project with a one-time donation, [click here](https://github.com/sponsors/aeonSolutions) to learn how,  and don't forget to include in a message which footprint you need. <br> Thank you 🙏.
 
 ### Support all these open hardware projects and become a GitHub sponsor  
-Liked any of my PCB KiCad Designs? Help and Support my open work to all by becoming a GitHub sponsor.
+Did you like any of my PCB KiCad Designs? Help and Support my open work to all by becoming a GitHub sponsor.
 
 <p align="center">
     <a href="https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/blob/main/become_a_sponsor/aeonlabs-github-sponsorship-agreement.docx">
