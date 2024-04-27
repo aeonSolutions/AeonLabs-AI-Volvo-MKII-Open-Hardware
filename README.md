@@ -11,7 +11,7 @@
 
 ![](https://views.whatilearened.today/views/github/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware.svg)
 **Unique Visits** <a href="https://trackgit.com"><img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/lpkxg8capf0t6hv9cqrl" alt="trackgit-views" /></a> &nbsp;
-<a href="https://www.freecounterstat.com/geozoom.php?c=sn8mzc14d51mhkdxbh1bq7162wpqzwsd&base=counter8&type_clic=1"><img src="https://counter11.optistats.ovh/private/freecounterstat.php?c=sn8mzc14d51mhkdxbh1bq7162wpqzwsd" height="20px" border="0" ></a>
+<a href="https://www.freecounterstat.com" title="website counter"><img src="https://counter11.optistats.ovh/private/freecounterstat.php?c=u7tmrzuabcylwrjfjw3s7eqe5ehh47da" border="0" title="website counter" alt="website counter"></a>
 [![GitHub Forks](https://img.shields.io/github/forks/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware.svg?style=social&label=Fork&maxAge=2592000)](https://www.github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/fork)
 [![GitHub stars](https://img.shields.io/github/stars/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/stargazers/)
 [![GitHub watchers](https://img.shields.io/github/watchers/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/watchers/)
