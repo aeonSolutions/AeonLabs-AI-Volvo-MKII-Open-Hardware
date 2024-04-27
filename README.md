@@ -67,7 +67,7 @@ Read more about ...
 There are now 2 ways to navigate my hardware electronics catalog. The icon below, to the left, will take you  to another page where this catalog is displayed using a conventional landing page design & styling. This option is suited to all those users who are only looking for a solution to a problem and not into the real technical details. If you like code and more technical information, browse this page instead.  The icon below to the right will take you directly to a webpage with all hardware electronics currently at the [M.V.P. stage](https://en.wikipedia.org/wiki/Minimum_viable_product). If you're not into technical information and are here only to buy, this is the option for you. 
 
 <p align="center">
- <a href="https://aeonsolutions.github.io/portfolio/hardware_electronics/">
+ <a href="https://aeonsolutions.github.io/portfolio/hardware_electronics/automotive/">
  <img alt="View this repository in a conventional landing page" height="100" src="https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/blob/main/media/diy_icon.png"></a>
   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
   <a href="https://aeonsolutions.github.io/products/">
