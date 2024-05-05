@@ -15,7 +15,9 @@
 [![GitHub Forks](https://img.shields.io/github/forks/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware.svg?style=social&label=Fork&maxAge=2592000)](https://www.github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/fork)
 [![GitHub stars](https://img.shields.io/github/stars/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/stargazers/)
 [![GitHub watchers](https://img.shields.io/github/watchers/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/watchers/)
-[![GitHub followers](https://img.shields.io/github/followers/aeonSolutions.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/aeonSolutions?tab=followers) **[More Stats](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Project-Statistics)**
+[![GitHub followers](https://img.shields.io/github/followers/aeonSolutions.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/aeonSolutions?tab=followers) 
+![GitHub Discussions](https://img.shields.io/github/discussions/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware)
+**[More Stats](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Project-Statistics)**
 </p>
 
 [PCB-Prototyping-Catalogue](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue)  >>  [Vehicle Automation](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/tree/main/Vehicle%20Automation)  >> Volvo P2 Open Hardware
