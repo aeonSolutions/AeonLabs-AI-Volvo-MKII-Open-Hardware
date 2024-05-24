@@ -28,7 +28,7 @@
 </div>
 
 # Open Hardware Electronics for the Volvo P2 platform
-**current project Total: > 1200 work.h** <br>
+**current project Total: > 1350 work.h** <br>
 <sup>Status: Ongoing Project </sup> <br>
 [where to buy](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/Where-to-Buy) already assembled and ready to use.
 
