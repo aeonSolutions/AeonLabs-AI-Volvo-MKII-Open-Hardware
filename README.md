@@ -20,7 +20,7 @@
 **[More Stats](https://github.com/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki/Project-Statistics)**
 </p>
 
-[PCB-Prototyping-Catalogue](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue)  >>  [Vehicle Automation](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/tree/main/Vehicle%20Automation)  >> Volvo P2 Open Hardware
+**Navigation** | [AeonLabs Main Index](https://github.com/aeonSolutions/aeonSolutions/blob/main/aeonSolutions-Main-Index.md)  >>  [Open Hardware Electronics](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue)  >>   >>  [Vehicle Automation](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/tree/main/Vehicle%20Automation)  >> Volvo P2 Open Hardware
 
 <div align="right">
  <a href="https://github-com.translate.goog/aeonSolutions/AeonLabs-AI-Volvo-MKII-Open-Hardware/wiki?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp">Change language</a> <br>
@@ -197,8 +197,6 @@ Did you like any of my PCB KiCad Designs? Help and Support my open work to all b
     </a>
 </p>
 
-# 
+## License
 
-### License
-
-Before proceeding to download any of AeonLabs software solutions for open-source development and/or PCB hardware electronics development make sure you are choosing the right license for your project. See [AeonLabs Solutions for Open Hardware & Source Development](https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/wiki/AeonLabs-Solutions-for-Open-Hardware-&-Source-Development) for more information. 
+Before proceeding to download any of AeonLab's open-source code for software solutions and/or open hardware electronics for smart devices and data acquisition make sure you are choosing the right license for your project. See [AeonLabs Solutions for Open Hardware & Open Source Code](https://github.com/aeonSolutions/aeonSolutions/wiki/AeonLabs-Licensing) for more information. For commercial business solutions contact AeonLabs ℹ️ using the contacts above. Thank you 🙏.
