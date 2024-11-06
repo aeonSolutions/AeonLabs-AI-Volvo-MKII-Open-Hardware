@@ -1,0 +1,7074 @@
+(kicad_sch
+	(version 20240819)
+	(generator "eeschema")
+	(generator_version "8.99")
+	(uuid "504c6d98-a8d8-4927-bf00-62b3061b2cfa")
+	(paper "A3")
+	(title_block
+		(title "Rear Electronic Module REM")
+		(date "2024-04-10")
+		(rev "05-2024")
+		(company "AEONLABS.SCIENCE")
+		(comment 1 "https://github.com/aeonSolutions")
+		(comment 2 "License Creative Commons Share Alike non-commercial")
+		(comment 3 "a PCB for the REM on 1998-2004 Volvo P2 models")
+		(comment 4 "a direct replacement of the factory's original pcb")
+	)
+	(lib_symbols
+		(symbol "AeonLabs_Sensors:INA219AIDCNR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 16.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "INA219AIDCNR"
+				(at -12.7 -19.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AeonLabs_Sensors:INA219AIDCNR SOT65P280X145-8N"
+				(at -1.27 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "26V, 12-bit, i2c output current/voltage/power monitor"
+				(at -2.54 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 1.27 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT-23-8 Texas Instruments"
+				(at 1.27 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at -1.27 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "INA219AIDCNR"
+				(at -3.81 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=271718&manufacturer=Texas Instruments&part_name=INA219AIDCNR&search_term=None"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=eda"
+				(at -1.27 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "INA219AIDCNR_0_0"
+				(rectangle
+					(start -5.08 10.16)
+					(end 5.08 -8.89)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 121.1462 160.674)
+		(end 297.4476 208.3244)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1043ab25-2c33-48d8-b869-b79fda9eb6c1)
+	)
+	(rectangle
+		(start 121.1462 103.524)
+		(end 297.4476 151.1744)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e7ff005-8721-419f-abe2-e40a240bb02d)
+	)
+	(rectangle
+		(start 122.4162 51.454)
+		(end 298.7176 99.1044)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9009440f-ecc4-40e9-af50-a07dc49d3122)
+	)
+	(text "Power Status Sensing"
+		(exclude_from_sim no)
+		(at 199.39 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b876dc8-6577-4afe-bacd-4eb5ab68d707")
+	)
+	(text "Power Status Sensing"
+		(exclude_from_sim no)
+		(at 198.12 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1c6bc4f-7b5d-46bc-aaaa-df4f5501602a")
+	)
+	(text "Power Status Sensing"
+		(exclude_from_sim no)
+		(at 198.12 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad0b05da-a3e8-4cbe-8cd8-22e3c75b397e")
+	)
+	(junction
+		(at 220.98 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e5fcb9a-d6fa-4c63-8b58-0b14e263c22d")
+	)
+	(junction
+		(at 276.86 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "131aaca8-c7d1-4374-a760-ccb38be6a2be")
+	)
+	(junction
+		(at 165.1 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1776ec8f-4d19-4dc6-bf63-ad0b6f2f8919")
+	)
+	(junction
+		(at 165.1 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b192e0c-92f4-4e57-b28c-d1c50a752ead")
+	)
+	(junction
+		(at 207.01 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51eba7b3-a35c-4d6d-b106-e42b1d4f8e4b")
+	)
+	(junction
+		(at 163.83 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66750802-27f1-4bac-8c1e-48f8a703a4d5")
+	)
+	(junction
+		(at 276.86 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69c84cdf-ddf5-4cc2-b3a8-87605399a5c4")
+	)
+	(junction
+		(at 207.01 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e95e0a9-0f58-4707-9245-690ab1ce4c48")
+	)
+	(junction
+		(at 219.71 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d3bed1d-055f-463d-ae19-485139654c1d")
+	)
+	(junction
+		(at 219.71 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91c86258-b7c1-4349-8a64-95b5538b3ebc")
+	)
+	(junction
+		(at 219.71 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e30bc72-2c10-41fe-a16a-79558e32c871")
+	)
+	(junction
+		(at 278.13 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6e3fb3d-a8d4-4c58-adbd-588e50a5b97e")
+	)
+	(junction
+		(at 139.7 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c44669c5-40ce-4ab4-a84f-3ca6fe54847a")
+	)
+	(junction
+		(at 163.83 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c612c78d-46b1-4845-a1ac-162f9d767820")
+	)
+	(junction
+		(at 163.83 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8649752-24f7-49eb-9409-82f7ddaeda61")
+	)
+	(junction
+		(at 276.86 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e771c1aa-848f-405d-a479-84e234c3a615")
+	)
+	(junction
+		(at 163.83 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd19768d-5267-41ab-937f-b16c919c45bf")
+	)
+	(wire
+		(pts
+			(xy 165.1 57.15) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c71a96c-552c-4280-b4c3-256f86d94e0d")
+	)
+	(wire
+		(pts
+			(xy 252.73 120.65) (xy 256.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da02cad-233c-41eb-aa81-1f53bd457d1b")
+	)
+	(wire
+		(pts
+			(xy 207.01 228.6) (xy 210.82 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e1108b-fb53-465b-a182-ca24f0a1bdbf")
+	)
+	(wire
+		(pts
+			(xy 203.2 226.06) (xy 207.01 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19924faa-5aa9-4f47-a29c-c91cae32c876")
+	)
+	(wire
+		(pts
+			(xy 276.86 170.18) (xy 276.86 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdcf620-d06b-409f-90fb-91c256a2f719")
+	)
+	(wire
+		(pts
+			(xy 276.86 113.03) (xy 276.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a24d360-6d4b-48ca-a43e-bc34d08f3a26")
+	)
+	(wire
+		(pts
+			(xy 222.25 118.11) (xy 219.71 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a284c4f-0275-4ad2-9b62-3f79cfe52b48")
+	)
+	(wire
+		(pts
+			(xy 193.04 226.06) (xy 195.58 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a4772a7-c558-48a1-8756-dc7de96f0a26")
+	)
+	(wire
+		(pts
+			(xy 196.85 113.03) (xy 196.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4137f13e-2895-49f9-ba72-59471762019d")
+	)
+	(wire
+		(pts
+			(xy 276.86 113.03) (xy 252.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4590844e-bfdb-421b-97cf-6a542c565b00")
+	)
+	(wire
+		(pts
+			(xy 163.83 109.22) (xy 139.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b206d6f-2cb2-4a76-a91e-143131bdd213")
+	)
+	(wire
+		(pts
+			(xy 207.01 231.14) (xy 210.82 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d36e09-8ac9-4877-9d71-92d4dd214be4")
+	)
+	(wire
+		(pts
+			(xy 219.71 118.11) (xy 219.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce8e357-ed05-4d8f-a808-54035989b336")
+	)
+	(wire
+		(pts
+			(xy 222.25 175.26) (xy 219.71 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74351384-ad4a-491c-a6ab-7988c896265f")
+	)
+	(wire
+		(pts
+			(xy 203.2 228.6) (xy 207.01 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d47b93-4c1a-472e-9cd2-79c85f7e5096")
+	)
+	(wire
+		(pts
+			(xy 166.37 66.04) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76dfc23e-5c79-4025-9542-ef01b3cda908")
+	)
+	(wire
+		(pts
+			(xy 195.58 233.68) (xy 193.04 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788a5a37-9b21-48a2-bdcb-250e6895d91f")
+	)
+	(wire
+		(pts
+			(xy 252.73 113.03) (xy 252.73 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c640d6-ea27-4288-a906-a11faf33b044")
+	)
+	(wire
+		(pts
+			(xy 139.7 120.65) (xy 143.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84dc4bbb-5f43-4fea-865d-79a3fdd841f6")
+	)
+	(wire
+		(pts
+			(xy 139.7 166.37) (xy 139.7 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85157249-05ca-4eaa-86d8-0b57ccef96fc")
+	)
+	(wire
+		(pts
+			(xy 140.97 66.04) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869a2b1f-e1fd-4763-be86-9d8bce579d07")
+	)
+	(wire
+		(pts
+			(xy 165.1 118.11) (xy 163.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887c3b44-152e-4df6-b94c-846be97f12c9")
+	)
+	(wire
+		(pts
+			(xy 139.7 109.22) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89012de0-9970-40ed-ac7c-66d6d37dad2c")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 139.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d32de5d-a8ca-45eb-9ce9-75eb314f966d")
+	)
+	(wire
+		(pts
+			(xy 140.97 57.15) (xy 140.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d62515f-97a4-40b2-bc56-f97f6378c531")
+	)
+	(wire
+		(pts
+			(xy 163.83 166.37) (xy 163.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5357b2b-42b8-4d0f-9a32-8ddf301dabbd")
+	)
+	(wire
+		(pts
+			(xy 219.71 113.03) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af698c41-e1b3-4f9f-b885-1d35f042cda8")
+	)
+	(wire
+		(pts
+			(xy 203.2 231.14) (xy 207.01 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8c5633-30c6-49cd-bcaa-ee2af506ba09")
+	)
+	(wire
+		(pts
+			(xy 163.83 166.37) (xy 139.7 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb72c4fe-5a70-4c7c-90d6-1850f414cfc4")
+	)
+	(wire
+		(pts
+			(xy 165.1 175.26) (xy 163.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9efc632-163e-40e0-8969-46f5e612a2de")
+	)
+	(wire
+		(pts
+			(xy 139.7 177.8) (xy 143.51 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb136792-063e-4af8-a1bf-47aaa31157ac")
+	)
+	(wire
+		(pts
+			(xy 163.83 109.22) (xy 163.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb4ace3-c2b5-421b-ae20-9eb4add4b747")
+	)
+	(wire
+		(pts
+			(xy 207.01 226.06) (xy 207.01 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ed3c78-c85e-443c-82d2-f2f6c9b036da")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 143.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6860159-afd1-4d61-a9a3-2e49a0b6cb33")
+	)
+	(wire
+		(pts
+			(xy 196.85 120.65) (xy 199.39 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d971b1af-6d7b-4214-9f73-0d0917fdbd83")
+	)
+	(wire
+		(pts
+			(xy 219.71 175.26) (xy 219.71 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06fc0ca-90b8-49fa-bccb-ceba84b4bae1")
+	)
+	(wire
+		(pts
+			(xy 203.2 233.68) (xy 207.01 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69d34a3-81df-455b-9b13-b293d4c177a4")
+	)
+	(wire
+		(pts
+			(xy 165.1 57.15) (xy 140.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74ae40d-9454-447a-b2d8-95520354e3bb")
+	)
+	(wire
+		(pts
+			(xy 278.13 60.96) (xy 278.13 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaaf91f3-596b-4c89-9fc3-f85d37be6049")
+	)
+	(wire
+		(pts
+			(xy 220.98 66.04) (xy 220.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec934236-1875-4d15-b538-2a6d025188b7")
+	)
+	(wire
+		(pts
+			(xy 223.52 66.04) (xy 220.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b0df9d-b7fa-435c-9e9d-fcf64ef62824")
+	)
+	(wire
+		(pts
+			(xy 207.01 233.68) (xy 207.01 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc19615e-7fcc-43ea-9005-28b2fc596246")
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 199.39 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02585994-c20d-46e9-8e0b-386df1352bec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.3982 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 200.66 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "061ce1ac-b005-4e6a-a457-1e927986e378")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.6682 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH3-PIN5"
+		(shape input)
+		(at 256.54 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c61f824-bd55-42c6-9932-24a30a327050")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.8396 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL_C3"
+		(shape input)
+		(at 257.81 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16680600-e26c-4c21-9ed6-08f3ec90c25f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.4316 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 256.54 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17983e8e-b2a2-4ad5-b3c1-6f89ae7c7f9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.5482 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 210.82 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a68864d-9867-4b2b-a716-76fba2ab07f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.8118 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_SENSE_TXMUX2"
+		(shape input)
+		(at 200.66 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "239a2ac1-9fea-4aeb-8875-33679dafa8ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.8432 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH3-PIN4"
+		(shape input)
+		(at 256.54 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24803d3a-8d02-42a0-a7af-f30c06bb0c97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.8396 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 256.54 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28b881f1-ecf5-4e7d-908b-9cf2588d20cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.6087 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 200.66 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c9edaa6-ac95-490a-977a-c88c72acff46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.7287 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 200.66 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34ea9d3d-5e71-4708-a1d6-1264a6a804da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.7287 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 203.2 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4687079d-3b4e-46f6-98af-cb20e82a8000")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2687 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 143.51 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4698478c-a253-4139-8d8b-8319c01538b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5182 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 199.39 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4eb10264-461c-455d-b9cf-c2bbb907e341")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.3982 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 143.51 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ec4baa4-055d-4455-8583-5b58acc4b930")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5787 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH6-PIN4"
+		(shape input)
+		(at 256.54 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5785d7b3-a2d8-4f5c-bf99-e62ab63d8af7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.8396 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 210.82 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e6a22e4-6d0e-48ce-b00a-e237f0f41241")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.7513 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH1-PIN4"
+		(shape input)
+		(at 143.51 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65590b46-ef78-4182-94e7-d3b53de35163")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.8096 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 199.39 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c9b606d-b57a-4b87-a649-6bb01cde71f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.3982 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 199.39 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76dba17a-f667-49de-9b9d-f3fcd5b65dc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.4587 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH5-PIN5"
+		(shape input)
+		(at 199.39 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "794e0000-f69a-4a55-bf22-6109bfe80cf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.6896 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 199.39 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e6c6025-ed95-46a4-9d88-0e78f4772bac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.4587 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 144.78 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fdd7941-fdd7-4299-a93c-6982ab01f99b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.8487 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 143.51 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81c3a607-433b-4cfd-af8a-f1c6f0ee6538")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5787 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH1-PIN5"
+		(shape input)
+		(at 143.51 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81d22c45-dcf8-40aa-86b8-7f98454d872a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.8096 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_SENSE_TXMUX3"
+		(shape input)
+		(at 257.81 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8499b600-e118-4a4d-b8a2-163593946efe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.9932 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA_C3"
+		(shape input)
+		(at 257.81 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "894bf46b-c76c-429a-8e9b-4e9b0f15de44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.3711 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 144.78 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e943c5a-6756-4f20-a17f-6416cf02b43c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.7882 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_SENSE_TXMUX1"
+		(shape input)
+		(at 144.78 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90c912ee-da48-4249-b87a-8f936836f799")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9632 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 256.54 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94587c32-d7be-4590-81d2-c745aa9fabef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.6087 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 143.51 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c62e714-e056-4392-9068-43fad3e4840d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5182 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 199.39 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8a7f632-935c-462d-898f-7c941f79b196")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.3982 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH5-PIN4"
+		(shape input)
+		(at 199.39 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad3f66c2-d497-48e2-9488-4c5d250c6f4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.6896 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 256.54 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba01a122-ff95-400c-b690-ecaa14749a75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.5482 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH2-PIN5"
+		(shape input)
+		(at 199.39 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcfbbbaa-b902-4868-8985-2c7fdc0d0fbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.6896 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SDA"
+		(shape input)
+		(at 203.2 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c27d5ba2-09cc-4dbc-8d17-927518c4a379")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2082 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH6-PIN5"
+		(shape input)
+		(at 256.54 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2d5978a-a374-40ac-9153-62789b3657fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.8396 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH4-PIN4"
+		(shape input)
+		(at 143.51 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d408117a-4bb1-47e2-b63a-4d51304f6660")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.8096 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL"
+		(shape input)
+		(at 143.51 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5419a32-e33e-44aa-9489-141394a1d103")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5787 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL_C3"
+		(shape input)
+		(at 257.81 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da59b9f6-1d17-419e-b2dd-b52db6e8e8cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.4316 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH2-PIN4"
+		(shape input)
+		(at 199.39 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee9f5d1d-a6e5-4387-adee-97365892bb60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.6896 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_I2C_SCL_C3"
+		(shape input)
+		(at 257.81 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f80a283b-0803-4e3e-94fe-68f17b1c587b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.4316 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESISTOR_SH4-PIN5"
+		(shape input)
+		(at 143.51 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8b4edc5-7633-4b13-914f-40e7eaad5913")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.8096 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "027cfaef-f5e6-4670-8863-d9ce65153873")
+		(property "Reference" "#PWR0266"
+			(at 194.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.326 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dff3083a-b37b-4ecf-94cc-e48e8106cb17")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0266")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03accf8d-87a9-4b07-86fc-028e9c8957e8")
+		(property "Reference" "#PWR0269"
+			(at 237.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 235.2548 67.2592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "945c987e-5e99-4591-8d2c-c7837f3c196e")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0269")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 280.67 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ae9cf2b-42a8-4d6d-8731-d47900211d19")
+		(property "Reference" "INA1_C9"
+			(at 281.8384 178.181 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 279.527 178.181 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 276.86 176.2252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b97bc9b-bd02-437d-b232-e35ab0ab4b02")
+		)
+		(pin "2"
+			(uuid "602af1ab-5e51-4d1b-8211-b639d376207d")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA1_C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 170.18 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c4b797a-f941-4d55-920d-56594fddba1a")
+		(property "Reference" "INA1_C10"
+			(at 171.3484 68.961 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 169.037 68.961 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 166.37 67.0052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d77b43c4-dd2d-452e-a8f8-879401b1becf")
+		)
+		(pin "2"
+			(uuid "4324cc11-2d1a-4e71-a7e9-a2474f51f46d")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA1_C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeonLabs_Sensors:INA219AIDCNR")
+		(at 153.67 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "132d49a8-63a8-4cb6-a3d2-6ca4ffbf51bc")
+		(property "Reference" "INA7"
+			(at 153.8732 169.0624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA219AIDCNR"
+			(at 153.6954 171.5008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AeonLabs_Sensors:INA219AIDCNR SOT65P280X145-8N"
+			(at 152.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\n26V, 12-bit, i2c output current/voltage/power monitor\n"
+			(at 151.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 154.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-8 Texas Instruments"
+			(at 154.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 152.4 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=snap"
+			(at 153.67 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA219AIDCNR"
+			(at 149.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=271718&manufacturer=Texas Instruments&part_name=INA219AIDCNR&search_term=None"
+			(at 153.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 153.67 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=eda"
+			(at 152.4 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fa8f439-255b-4a7c-933b-f1e42fe33818")
+		)
+		(pin "2"
+			(uuid "2433c25f-3a51-4a72-870e-fd36e071b094")
+		)
+		(pin "3"
+			(uuid "6b72d2e7-a9a8-49cc-93e0-b5c6ee19c872")
+		)
+		(pin "4"
+			(uuid "fccf2b9f-c799-43f8-8946-2e210eb00aca")
+		)
+		(pin "5"
+			(uuid "c1f13a79-0b3e-4e31-b9e9-48cb7ea92c76")
+		)
+		(pin "6"
+			(uuid "4ca02a62-00ab-4129-adb4-bccd413f0e6f")
+		)
+		(pin "7"
+			(uuid "a25b44fd-8566-47dc-a35b-cc37643ac05b")
+		)
+		(pin "8"
+			(uuid "fb73c281-8c8e-41fc-a1ad-e0e1f253a328")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19f7963d-a96d-4001-abdc-5b2d70582560")
+		(property "Reference" "#PWR0235"
+			(at 226.06 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.8248 134.5692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "261f034c-ba80-477c-93af-a6004b05eaa3")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0235")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "202cda53-726b-43eb-b26c-a2d6e410a339")
+		(property "Reference" "#PWR0255"
+			(at 283.21 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.9748 191.7192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "732cd2ab-3807-41ec-a417-5b52be5b70a2")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0255")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 177.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2117ee31-f047-4551-a999-e0d56c5ca6c8")
+		(property "Reference" "#PWR077"
+			(at 250.19 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.206 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2de15556-0d28-44c5-a90b-60efae232819")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 278.13 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "229cd149-03b2-4933-89e9-a78ff6477fb9")
+		(property "Reference" "#PWR0278"
+			(at 274.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 281.3812 61.341 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1edd54e4-b90f-4b69-aa21-54aa45be22f0")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0278")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24150a77-2012-4ac3-b061-992ed59ee016")
+		(property "Reference" "#PWR0268"
+			(at 227.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 225.0948 82.4992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36403b42-81b9-4de8-8ae0-f8aba08d5f64")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0268")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a209f7b-9541-4a86-a497-1d61fdc63d02")
+		(property "Reference" "#PWR0263"
+			(at 171.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 169.2148 82.4992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7eb8ae2-c616-43d9-ac0a-b707d11f7493")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeonLabs_Sensors:INA219AIDCNR")
+		(at 154.94 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ed9343e-e5bb-4810-a04c-a6209af3796c")
+		(property "Reference" "INA10"
+			(at 155.1432 59.8424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA219AIDCNR"
+			(at 154.9654 62.2808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AeonLabs_Sensors:INA219AIDCNR SOT65P280X145-8N"
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\n26V, 12-bit, i2c output current/voltage/power monitor\n"
+			(at 152.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 156.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-8 Texas Instruments"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 153.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=snap"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA219AIDCNR"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=271718&manufacturer=Texas Instruments&part_name=INA219AIDCNR&search_term=None"
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=eda"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d722859-e2d0-45e1-85c3-0a0972b42323")
+		)
+		(pin "2"
+			(uuid "4615fb5c-eef7-4bbd-af91-4a929456530b")
+		)
+		(pin "3"
+			(uuid "8ed7fd32-4e03-43df-9466-5c47f9e51932")
+		)
+		(pin "4"
+			(uuid "d6eaf4fa-035f-482a-bc0b-49d86d851d8c")
+		)
+		(pin "5"
+			(uuid "02af0083-e2a7-4470-a118-540436bd599a")
+		)
+		(pin "6"
+			(uuid "1edc4130-62ee-438d-b262-83a89c7b870d")
+		)
+		(pin "7"
+			(uuid "9e63825e-fcbb-4b7b-a4b1-4c0f1f0bba91")
+		)
+		(pin "8"
+			(uuid "051f62ad-2e4b-467a-b6dc-8f46de4bc446")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "332f32b5-c854-4af8-bdb9-eff14c6a77e2")
+		(property "Reference" "#PWR0245"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 167.0812 166.751 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8da89327-9cbc-42dd-a8a9-5e44d28eb94f")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 281.94 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "396b868a-60ea-462d-8e81-b70b8cb1ba62")
+		(property "Reference" "INA1_C12"
+			(at 283.1084 68.961 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 280.797 68.961 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 278.13 67.0052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbe84a41-90f0-4d25-8028-245478711373")
+		)
+		(pin "2"
+			(uuid "d6897f59-9495-42f3-8cc9-c0f0392d45fe")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA1_C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 177.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b08b47e-ccfd-4fbe-9253-52db8438beec")
+		(property "Reference" "#PWR075"
+			(at 193.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.056 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "336a9863-752d-4c79-ac78-864c5bf7843e")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 226.06 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b0ad6fd-49b8-4b3e-a222-972555c2fe44")
+		(property "Reference" "INA1_C5"
+			(at 227.2284 121.031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 224.917 121.031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 222.25 119.0752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c953a070-9702-469f-935b-a7082d146db3")
+		)
+		(pin "2"
+			(uuid "6fdbfe6b-efe7-4cab-9759-d767a59db066")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA1_C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 284.48 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44da3a05-4a25-4fdb-bedb-c7c5c8f28ad7")
+		(property "Reference" "#PWR0256"
+			(at 290.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.5948 176.4792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64ab3e2b-b512-41d5-9835-424b32c1be1f")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0256")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b1a78ea-57e1-4e25-8f68-51b94914bbf5")
+		(property "Reference" "#PWR0277"
+			(at 251.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.476 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a54df47d-a2be-4f4a-aeed-91b67e988c72")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0277")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 276.86 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d95f0bd-ff23-48d7-96e2-266ea33903e9")
+		(property "Reference" "#PWR0254"
+			(at 273.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 280.1112 170.561 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b27afce8-dfa6-4666-be1a-f6a53e9b3bd4")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0254")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 165.1 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dc965b1-931a-400b-9387-edfa92705d06")
+		(property "Reference" "#PWR0262"
+			(at 161.29 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.3512 57.531 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d8236f2-6aa7-465b-8714-6b5df859b807")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0262")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeonLabs_Sensors:INA219AIDCNR")
+		(at 209.55 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58ddde03-9187-4d37-95bd-852e6f14cf5f")
+		(property "Reference" "INA5"
+			(at 209.7532 111.9124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA219AIDCNR"
+			(at 209.5754 114.3508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AeonLabs_Sensors:INA219AIDCNR SOT65P280X145-8N"
+			(at 208.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\n26V, 12-bit, i2c output current/voltage/power monitor\n"
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-8 Texas Instruments"
+			(at 210.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 208.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=snap"
+			(at 209.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA219AIDCNR"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=271718&manufacturer=Texas Instruments&part_name=INA219AIDCNR&search_term=None"
+			(at 209.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 209.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=eda"
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4adbd7e4-557c-414f-b025-fdac5b1eac7b")
+		)
+		(pin "2"
+			(uuid "e040dd32-d2f6-4d5e-8512-54e54ce3f083")
+		)
+		(pin "3"
+			(uuid "7f707dc2-680a-4e28-83fd-c62402c5d57e")
+		)
+		(pin "4"
+			(uuid "ec142f64-3729-4f60-8a2c-0cccebb6891a")
+		)
+		(pin "5"
+			(uuid "df51fa3a-8ef0-48bc-875d-1802eb360737")
+		)
+		(pin "6"
+			(uuid "29004b88-a126-4911-a0d3-73c38e186502")
+		)
+		(pin "7"
+			(uuid "a211be2e-2599-4a59-b3b3-4b290ff62164")
+		)
+		(pin "8"
+			(uuid "96b2a29c-7104-4b29-a769-8abf7c1abc2d")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e91d254-30a5-4f4e-9bc4-73ff13619439")
+		(property "Reference" "#PWR0279"
+			(at 284.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 282.2448 82.4992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e56a63c-92e2-43c0-ab72-a39894594858")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0279")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62aae7e3-618e-4f68-9cbf-1542e22cd7fc")
+		(property "Reference" "INA1_C4"
+			(at 170.0784 121.031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.767 121.031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 165.1 119.0752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52b4b2b9-9623-4ed0-a74a-dcd823f80d63")
+		)
+		(pin "2"
+			(uuid "5e53d02b-2f76-485c-9ce3-8e43b874f36b")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA1_C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 226.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67567d07-94df-4016-a53a-9824c9b47df0")
+		(property "Reference" "MPR5"
+			(at 199.644 224.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 199.644 226.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 199.39 224.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da323fbc-dc73-4c62-95d2-310b26049f0f")
+		)
+		(pin "2"
+			(uuid "5231f072-c5a4-45c7-bb8d-128dd97a303e")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "MPR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 276.86 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6987f643-9788-4a41-bbbd-64f91fec9a04")
+		(property "Reference" "#PWR0241"
+			(at 273.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 280.1112 113.411 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb1ebaf4-ab8f-4577-b0eb-f6ad4b56ea55")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0241")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b9f3fdb-76c4-452d-9fd5-928ae6cac688")
+		(property "Reference" "#PWR0177"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 167.0812 109.601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "332850b0-6377-46ba-8e77-764604380084")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f9f0724-f695-4187-9f6a-b4574ea73eed")
+		(property "Reference" "#PWR0247"
+			(at 179.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.8348 176.4792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21437728-6eb8-468c-9b15-bad512343ecb")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0247")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fd4cd00-64c1-48be-be9b-3961e3e2364f")
+		(property "Reference" "#PWR0246"
+			(at 170.18 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.9448 191.7192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e6cdae8-03d2-4b6a-9c2c-3ebf9bb77647")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 280.67 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73dd2e49-50e9-4255-bbc2-7e7927ff8e50")
+		(property "Reference" "INA1_C6"
+			(at 281.8384 121.031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 279.527 121.031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 276.86 119.0752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85a165e2-3ff0-47d6-9ab5-2900431ae29b")
+		)
+		(pin "2"
+			(uuid "b588a07c-9bd6-4e0e-9814-4abe50c16308")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA1_C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "751b3258-f328-42fe-a2f9-77f801da4b05")
+		(property "Reference" "#PWR0250"
+			(at 226.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.8248 191.7192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a897137-cee9-42f7-a564-e76f3f823a84")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0250")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeonLabs_Sensors:INA219AIDCNR")
+		(at 266.7 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81a42ffe-2759-4b2d-9383-5516d841bb6b")
+		(property "Reference" "INA6"
+			(at 266.9032 111.9124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA219AIDCNR"
+			(at 266.7254 114.3508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AeonLabs_Sensors:INA219AIDCNR SOT65P280X145-8N"
+			(at 265.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\n26V, 12-bit, i2c output current/voltage/power monitor\n"
+			(at 264.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 267.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-8 Texas Instruments"
+			(at 267.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 265.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=snap"
+			(at 266.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA219AIDCNR"
+			(at 262.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=271718&manufacturer=Texas Instruments&part_name=INA219AIDCNR&search_term=None"
+			(at 266.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 266.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=eda"
+			(at 265.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df732115-4be4-433b-86d3-d48f8c1fd395")
+		)
+		(pin "2"
+			(uuid "9be80aa3-84f4-4944-8dbb-31711f5688db")
+		)
+		(pin "3"
+			(uuid "2a987f5e-8984-4d21-a6f6-ab8d25fa6a66")
+		)
+		(pin "4"
+			(uuid "120d5326-922d-4bae-a5fa-8220039f61da")
+		)
+		(pin "5"
+			(uuid "3de6e62f-d9b2-442c-bad8-f56be445b405")
+		)
+		(pin "6"
+			(uuid "60c1e8c3-076c-4e5d-9bec-8ef43f956e47")
+		)
+		(pin "7"
+			(uuid "9db42c74-9a4b-4aee-b93a-c51409b54de8")
+		)
+		(pin "8"
+			(uuid "2417b0f2-bd2b-4e2b-a85e-3ccbb938a3db")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 220.98 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f6dc548-18da-4f9c-b677-5b2ea53a92e8")
+		(property "Reference" "#PWR0267"
+			(at 217.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 224.2312 61.341 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c57d1a37-dd97-4857-8841-8afd0f663386")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0267")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 219.71 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9433d668-6adb-496c-a530-48bbef9aa3a3")
+		(property "Reference" "#PWR0234"
+			(at 215.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 222.9612 113.411 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32fedc32-50fb-416b-b1c0-bab83a9268b5")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0234")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 226.06 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9859c929-1dec-4bbb-9576-62b50d00b3b7")
+		(property "Reference" "INA1_C8"
+			(at 227.2284 178.181 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 224.917 178.181 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 222.25 176.2252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d412943c-f5e0-479f-a692-51f9c99bac9a")
+		)
+		(pin "2"
+			(uuid "ce10f909-9325-4d3c-a80a-6ae944af7bc2")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA1_C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeonLabs_Sensors:INA219AIDCNR")
+		(at 210.82 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cc0abe4-ce9f-414b-9c32-3819f739457f")
+		(property "Reference" "INA11"
+			(at 211.0232 59.8424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA219AIDCNR"
+			(at 210.8454 62.2808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AeonLabs_Sensors:INA219AIDCNR SOT65P280X145-8N"
+			(at 209.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\n26V, 12-bit, i2c output current/voltage/power monitor\n"
+			(at 208.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 212.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-8 Texas Instruments"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=snap"
+			(at 210.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA219AIDCNR"
+			(at 207.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=271718&manufacturer=Texas Instruments&part_name=INA219AIDCNR&search_term=None"
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 210.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=eda"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8783c3b1-15d9-43ef-9584-dbeb36232db0")
+		)
+		(pin "2"
+			(uuid "160bbf7b-baa9-47b7-8f99-1907d5179453")
+		)
+		(pin "3"
+			(uuid "b353c1d5-54e5-4d95-b07f-d1c0096680c0")
+		)
+		(pin "4"
+			(uuid "2e2cffe7-6642-4fd7-8d4b-bdf3b8c5650c")
+		)
+		(pin "5"
+			(uuid "d9e59c8f-9dac-435e-b8f2-8e5616bc9835")
+		)
+		(pin "6"
+			(uuid "55355977-3da6-4fd1-8a21-ad033a87c949")
+		)
+		(pin "7"
+			(uuid "1104d651-557b-44df-9e12-e38997ab9ea8")
+		)
+		(pin "8"
+			(uuid "f4a8afd9-2d70-420a-b81a-099c263b0101")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 175.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e3d07da-28a7-4c43-b728-1f6033e7468c")
+		(property "Reference" "#PWR0252"
+			(at 250.19 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.0226 173.1264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f09e892-a3b3-4deb-af66-bf2cf18ec687")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0252")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0657693-2aa7-48f4-bb06-6144a8e47fd6")
+		(property "Reference" "#PWR0232"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.8348 119.3292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a526448f-7c97-4ea4-9243-3518a7daf8c2")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a17b07be-e563-4b62-b297-1938740adf8f")
+		(property "Reference" "#PWR0261"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.446 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05ddc121-1ae9-468e-a604-98477bccaae0")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0261")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 68.58 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6bc55c3-2f40-49c3-93fb-8a1a8e1dd70e")
+		(property "Reference" "#PWR0318"
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.446 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b654ef2f-d1ec-4dc9-a678-5fb789581dd9")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeonLabs_Sensors:INA219AIDCNR")
+		(at 267.97 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a80fdca7-461a-4d3b-a681-0576795f7967")
+		(property "Reference" "INA12"
+			(at 268.1732 59.8424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA219AIDCNR"
+			(at 267.9954 62.2808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AeonLabs_Sensors:INA219AIDCNR SOT65P280X145-8N"
+			(at 266.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\n26V, 12-bit, i2c output current/voltage/power monitor\n"
+			(at 265.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-8 Texas Instruments"
+			(at 269.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 266.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=snap"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA219AIDCNR"
+			(at 264.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=271718&manufacturer=Texas Instruments&part_name=INA219AIDCNR&search_term=None"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=eda"
+			(at 266.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb464bab-05b0-4e11-b085-760f41be7a3d")
+		)
+		(pin "2"
+			(uuid "85cab382-cb26-4bd9-8ef8-fe36ded03ec5")
+		)
+		(pin "3"
+			(uuid "463b2799-c1d6-42ca-a1fa-244cd4e9d788")
+		)
+		(pin "4"
+			(uuid "5d5aa97c-647c-43dd-acf2-daeabee356f6")
+		)
+		(pin "5"
+			(uuid "694d4300-0b7d-4b64-9c15-780b7bf47028")
+		)
+		(pin "6"
+			(uuid "6549b34d-f748-4da3-af25-21c7e444ae88")
+		)
+		(pin "7"
+			(uuid "8edb83ed-06d7-4d8b-aac2-e36f805dc9d6")
+		)
+		(pin "8"
+			(uuid "9c3a0493-acb9-4966-9958-21cd58c14030")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeonLabs_Sensors:INA219AIDCNR")
+		(at 153.67 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abcc0c8b-1893-4e5c-b172-befa96e97359")
+		(property "Reference" "INA4"
+			(at 153.8732 111.9124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA219AIDCNR"
+			(at 153.6954 114.3508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AeonLabs_Sensors:INA219AIDCNR SOT65P280X145-8N"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\n26V, 12-bit, i2c output current/voltage/power monitor\n"
+			(at 151.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-8 Texas Instruments"
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=snap"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA219AIDCNR"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=271718&manufacturer=Texas Instruments&part_name=INA219AIDCNR&search_term=None"
+			(at 153.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=eda"
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69cf84b0-d1ad-40b7-b890-b506dc835229")
+		)
+		(pin "2"
+			(uuid "fb8d7bae-d0d1-4741-80c3-7c723f0b9c5d")
+		)
+		(pin "3"
+			(uuid "7d689086-268a-4ddf-8016-7592a9ca673c")
+		)
+		(pin "4"
+			(uuid "c30eb346-5016-4c41-95f2-d6c7b42ead9a")
+		)
+		(pin "5"
+			(uuid "1fd86338-919a-4de4-bb7c-35760ce98f7b")
+		)
+		(pin "6"
+			(uuid "3eeb57f2-0e8a-4dcf-9442-d5e0cecdf579")
+		)
+		(pin "7"
+			(uuid "4779ef3c-ce3f-42be-b058-75b210bb381e")
+		)
+		(pin "8"
+			(uuid "c64e2fe2-e576-4c6b-bab1-2452fe3548d7")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 233.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abd02db8-9c35-4146-b438-976784f38104")
+		(property "Reference" "MPR6"
+			(at 199.644 235.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 199.644 233.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 199.39 231.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "988944b5-08e1-45ab-96e4-5d48fa7d8f72")
+		)
+		(pin "2"
+			(uuid "b06aee15-ba02-4067-a593-858ff21d6fb3")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "MPR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b179d2bb-4b9d-4883-b33a-bec9e66fb382")
+		(property "Reference" "#PWR0251"
+			(at 236.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.9848 176.4792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e78fcf9-3a95-4b65-80ca-5546be31813b")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 284.48 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b88e15c6-6709-4f42-a2e0-83c023bc7a65")
+		(property "Reference" "#PWR0243"
+			(at 290.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.5948 119.3292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ae41307-ac57-424e-bd9d-09b1c95cad1d")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf00c1c2-785a-4729-9e7a-048eb759dec3")
+		(property "Reference" "#PWR0185"
+			(at 170.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.9448 134.5692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc1d86cc-c53b-4367-a3a3-312e7929735d")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 285.75 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca9ea5e5-8803-4fff-a761-85a5407a3f1f")
+		(property "Reference" "#PWR0313"
+			(at 292.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.8648 67.2592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e127623-4ded-4b30-aab5-ed506b515ae2")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeonLabs_Sensors:INA219AIDCNR")
+		(at 209.55 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbf3efac-3871-4bb6-85a6-48c722a8109a")
+		(property "Reference" "INA8"
+			(at 209.7532 169.0624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA219AIDCNR"
+			(at 209.5754 171.5008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AeonLabs_Sensors:INA219AIDCNR SOT65P280X145-8N"
+			(at 208.28 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\n26V, 12-bit, i2c output current/voltage/power monitor\n"
+			(at 207.01 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 210.82 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-8 Texas Instruments"
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=snap"
+			(at 209.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA219AIDCNR"
+			(at 205.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=271718&manufacturer=Texas Instruments&part_name=INA219AIDCNR&search_term=None"
+			(at 209.55 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 209.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=eda"
+			(at 208.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6511455-3fc9-422d-8ec6-dbdf312e917e")
+		)
+		(pin "2"
+			(uuid "7695bb5c-0448-4d49-812a-8ba10632e9b7")
+		)
+		(pin "3"
+			(uuid "ebbf0390-865c-44a3-a882-e1ecad725527")
+		)
+		(pin "4"
+			(uuid "02bbe4bf-fb40-47b8-824f-a73bc2ae688b")
+		)
+		(pin "5"
+			(uuid "4d21bc4c-17c0-4c76-a960-739b1dcd482e")
+		)
+		(pin "6"
+			(uuid "9964ffe2-9e6c-4043-8978-aa0f6d3049a7")
+		)
+		(pin "7"
+			(uuid "f653800f-4a49-45c9-814f-1de1e361348a")
+		)
+		(pin "8"
+			(uuid "fe61b265-6b5f-4a80-8a84-7d410d275c68")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce2fc78d-b159-4f99-a6d7-c02a3b0d2838")
+		(property "Reference" "#PWR0264"
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 178.1048 67.2592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac25eeec-1a1a-431a-a42d-eb6cb00f5a45")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0264")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 193.04 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "d2ec3eb6-051c-4d76-aa61-1be3f13e3a70")
+		(property "Reference" "#PWR0238"
+			(at 196.85 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 189.7888 233.299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "106788c2-9a6f-41f7-ab41-44884e65ca8e")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 227.33 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "daee45f5-16e7-4acf-a0b3-c8d5ec179d9c")
+		(property "Reference" "INA1_C11"
+			(at 228.4984 68.961 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 226.187 68.961 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 223.52 67.0052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8ee7651-e398-4235-a76c-8dd6edee7f37")
+		)
+		(pin "2"
+			(uuid "0d9645fa-eee0-4f51-82e5-b4585810a455")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA1_C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 68.58 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db3c3664-91ad-4fbf-a6f7-12c820e544ec")
+		(property "Reference" "#PWR0265"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.326 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90aa6e90-8a5e-485b-a6ef-b23b643f83a2")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0265")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 193.04 226.06 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "e540cc77-f3a6-4d57-a456-d71296d19d58")
+		(property "Reference" "#PWR0237"
+			(at 196.85 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 189.7888 225.679 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb116614-5ddd-4dac-8183-e46be8671404")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0237")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f22a23e7-b105-4342-9adb-3b1fb16c614f")
+		(property "Reference" "INA1_C7"
+			(at 170.0784 178.181 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.767 178.181 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 165.1 176.2252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf542ea3-0482-4a8a-9e6b-469587b89cab")
+		)
+		(pin "2"
+			(uuid "e42e9254-5643-43b3-aee9-195d323b929e")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA1_C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f306cda0-0e78-4187-909f-2cf3f6ac58b1")
+		(property "Reference" "#PWR0242"
+			(at 283.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.9748 134.5692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8dcc4e3-e4ed-42e2-a263-ea357a6d627f")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f51745b5-dede-468d-a33f-cf39e19578c0")
+		(property "Reference" "#PWR0236"
+			(at 236.22 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.9848 119.3292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32e64ce1-2793-49ee-9637-8f954f0ca7fa")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0236")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 118.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f85f22e0-18d4-420c-802c-057b9f042914")
+		(property "Reference" "#PWR0239"
+			(at 250.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.0226 115.9764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7417f90-194a-4819-825f-acc68e417398")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeonLabs_Sensors:INA219AIDCNR")
+		(at 266.7 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd287b5e-85a5-4c8d-a5d6-8011070d2170")
+		(property "Reference" "INA9"
+			(at 266.9032 169.0624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA219AIDCNR"
+			(at 266.7254 171.5008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AeonLabs_Sensors:INA219AIDCNR SOT65P280X145-8N"
+			(at 265.43 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\n26V, 12-bit, i2c output current/voltage/power monitor\n"
+			(at 264.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 267.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-8 Texas Instruments"
+			(at 267.97 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 265.43 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=snap"
+			(at 266.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA219AIDCNR"
+			(at 262.89 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=271718&manufacturer=Texas Instruments&part_name=INA219AIDCNR&search_term=None"
+			(at 266.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 266.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/INA219AIDCNR/Texas+Instruments/view-part/?ref=eda"
+			(at 265.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0178e596-87df-43e1-820f-52134d976b9f")
+		)
+		(pin "2"
+			(uuid "07d2d732-86da-4612-ae33-752bd19fe42b")
+		)
+		(pin "3"
+			(uuid "5c17e648-8e41-44b4-9697-d8df5f0f96b0")
+		)
+		(pin "4"
+			(uuid "d4ab0d10-1832-420b-8074-6090a03b1a2a")
+		)
+		(pin "5"
+			(uuid "6d3a84c7-e071-43f4-a506-1c09defd75d8")
+		)
+		(pin "6"
+			(uuid "c5a0da8c-a751-4eb9-aaa3-19c08e805c49")
+		)
+		(pin "7"
+			(uuid "d9f3f6be-b9cd-4210-92e1-f566bcdb883a")
+		)
+		(pin "8"
+			(uuid "1583ac35-63c5-495c-8d0c-5a77d3c7b7c0")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "INA9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 219.71 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff1f2a70-6334-4a8c-84db-7b56e9150afd")
+		(property "Reference" "#PWR0249"
+			(at 215.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 222.9612 170.561 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe288f3c-a283-4a96-9023-40ca8aaf386e")
+		)
+		(instances
+			(project "REM"
+				(path "/7afa8b92-3889-4c4b-999c-19cf054f5f94/77dcfb78-7a08-4209-a7d0-d572a4e1daee"
+					(reference "#PWR0249")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
